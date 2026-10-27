@@ -1,0 +1,89 @@
+{%- comment -%}
+  The Security news page, in every language. The headlines come from _data/security_news.json and the daily briefs
+  from _briefs/; both are written by scripts/security_news.py (run each day by .github/workflows/security-news.yml).
+  The news itself stays in English, so it carries lang="en" on the translated pages.
+{%- endcomment -%}
+{%- assign news = site.data.security_news -%}
+{%- assign briefs = site.briefs | sort: 'date' | reverse -%}
+{%- capture en_attr %}{% if lang != 'en' %} lang="en" dir="ltr"{% endif %}{% endcapture -%}
+<div class="wrap page sn">
+  <header class="page-head">
+    <p class="eyebrow">{{ S.sn_eyebrow }}</p>
+    <h1>{{ S.sn_page_title }}</h1>
+    <p class="lede">{{ S.sn_lede }}</p>
+    {% if news.updated and news.updated != '' %}<p class="meta">{{ S.sn_updated }}: <time datetime="{{ news.updated }}">{% include date.html date=news.updated long=true %}</time></p>{% endif %}
+  </header>
+
+  {% if briefs.size > 0 %}{% assign b = briefs.first %}
+  <section class="sn-brief" aria-labelledby="sn-brief-title">
+    <p class="eyebrow">{{ S.sn_brief_eyebrow }} · <time datetime="{{ b.date | date_to_xmlschema }}">{% include date.html date=b.date long=true %}</time></p>
+    <h2 id="sn-brief-title"{{ en_attr }}><a href="{{ b.url | relative_url }}">{{ b.title | escape }}</a></h2>
+    {% if b.description %}<p{{ en_attr }}>{{ b.description | escape }}</p>{% endif %}
+    <p><a class="link-arrow" href="{{ b.url | relative_url }}">{{ S.sn_brief_read }} {% include icon.html name="arrow" px=16 %}</a></p>
+    {% if briefs.size > 1 %}
+    <details class="sn-older">
+      <summary>{{ S.sn_brief_older }}</summary>
+      <ul>
+        {%- for o in briefs offset:1 limit:14 %}
+        <li><time datetime="{{ o.date | date_to_xmlschema }}">{% include date.html date=o.date long=true %}</time> <a href="{{ o.url | relative_url }}"{{ en_attr }}>{{ o.title | escape }}</a></li>
+        {%- endfor %}
+      </ul>
+    </details>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if news.kev.size > 0 %}
+  <section class="sn-section" aria-labelledby="sn-kev-title">
+    <h2 id="sn-kev-title">{{ S.sn_kev_title }}</h2>
+    <p class="muted">{{ S.sn_kev_lede }}</p>
+    <ul class="sn-kev">
+      {%- for v in news.kev %}
+      <li>
+        <a class="sn-cve" href="{{ v.url | escape }}" rel="noopener">{{ v.cve | escape }}</a>
+        <span class="sn-kev-name"{{ en_attr }}>{{ v.name | escape }}</span>
+        <span class="sn-kev-meta">{{ S.sn_kev_added }} <time datetime="{{ v.added | escape }}">{% include date.html date=v.added long=true %}</time>{% if v.ransomware %} · <span class="sn-flag">{{ S.sn_kev_ransomware }}</span>{% endif %}</span>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section class="sn-section" aria-labelledby="sn-latest-title">
+    <h2 id="sn-latest-title">{{ S.sn_latest_title }}</h2>
+    {% if news.items.size > 0 %}
+    {%- assign topics = "vulnerabilities,ransomware,phishing,breaches,malware,ai" | split: "," %}
+    <div class="filter" role="group" aria-labelledby="filter-label-news">
+      <span class="filter-label" id="filter-label-news">{{ S.filter_label }}</span>
+      <button type="button" class="chip-btn" aria-pressed="true" data-topic="">{{ S.filter_all }}</button>
+      {%- for t in topics %}{% assign tk = 'sn_topic_' | append: t %}
+      <button type="button" class="chip-btn" aria-pressed="false" data-topic="{{ t }}">{{ S[tk] }}</button>
+      {%- endfor %}
+      <p class="filter-status sr-only" role="status" aria-live="polite"></p>
+    </div>
+    <ol class="sn-list" data-filterable data-shown-one="{{ S.sn_shown_one }}" data-shown-many="{{ S.sn_shown_many }}">
+      {%- for it in news.items %}
+      <li data-topics="{{ it.topics | join: '|' | escape }}">
+        <p class="sn-meta"><span class="sn-source">{{ it.source | escape }}</span> · <time datetime="{{ it.published | escape }}">{% include date.html date=it.published long=true %}</time></p>
+        <h3{{ en_attr }}><a href="{{ it.url | escape }}" rel="noopener">{{ it.title | escape }}</a></h3>
+        {% if it.excerpt != "" %}<p class="sn-excerpt"{{ en_attr }}>{{ it.excerpt | escape }}</p>{% endif %}
+        {% if it.topics.size > 0 %}<ul class="tags" aria-label="{{ S.topics }}">{% for t in it.topics %}{% assign tk = 'sn_topic_' | append: t %}<li>{{ S[tk] | default: t | escape }}</li>{% endfor %}</ul>{% endif %}
+      </li>
+      {%- endfor %}
+    </ol>
+    {% else %}
+    <p class="empty">{{ S.sn_empty }}</p>
+    {% endif %}
+  </section>
+
+  <section class="sn-section sn-about" aria-labelledby="sn-about-title">
+    <h2 id="sn-about-title">{{ S.sn_about_title }}</h2>
+    <p>{{ S.sn_about }}{% if lang != 'en' %} {{ S.sn_in_english }}{% endif %}</p>
+    <ul class="sn-sources">
+      {%- for s in news.sources %}
+      <li><a href="{{ s.home | escape }}" rel="noopener">{{ s.name | escape }}</a></li>
+      {%- endfor %}
+    </ul>
+    <p class="muted">{{ S.sn_kev_source }}</p>
+  </section>
+</div>

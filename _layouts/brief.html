@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% include i18n.html %}
+{%- comment -%} A daily security brief, written by scripts/security_news.py. The text is AI-written, so the page says so and lists every source. {%- endcomment -%}
+<article class="wrap page">
+  <p class="eyebrow"><a href="{{ L }}/security-news/"><span class="back-arrow" aria-hidden="true">←</span> {{ S.sn_brief_all }}</a></p>
+  <header class="page-head">
+    <p class="eyebrow">{{ S.sn_brief_eyebrow }}</p>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date long=true %}</time></p>
+    <p class="sn-note">{{ S.sn_brief_note }}</p>
+  </header>
+  <div class="prose">
+    {{ content }}
+    {% if page.sources.size > 0 %}
+    <h2>{{ S.sn_brief_sources }}</h2>
+    <ul>
+      {%- for s in page.sources %}
+      <li><a href="{{ s.url | escape }}" rel="noopener">{{ s.title | escape }}</a> <span class="muted">({{ s.source | escape }})</span></li>
+      {%- endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</article>

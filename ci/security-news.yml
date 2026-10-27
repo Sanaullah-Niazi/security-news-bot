@@ -1,0 +1,62 @@
+# Updates the Security news page (/security-news/) once a day: collects new headlines with
+# scripts/security_news.py, commits them, and GitHub Pages publishes the site again.
+# It also writes a short AI daily brief when the repository has a GEMINI_API_KEY secret (free,
+# from aistudio.google.com) or an ANTHROPIC_API_KEY secret (Claude, paid).
+# Run it by hand any time from the Actions tab ("Security news" > "Run workflow").
+name: Security news
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # every day at 05:17 UTC (10:17 in Pakistan)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: security-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the Claude SDK (only used when the API key is set)
+        if: env.ANTHROPIC_API_KEY != ''
+        run: pip install --quiet "anthropic>=0.80"
+
+      - name: Collect the news and write the brief
+        run: python3 scripts/security_news.py
+
+      - name: Commit the update
+        id: commit
+        run: |
+          git add _data/security_news.json _briefs
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update security news"
+          git pull --rebase --quiet
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Commits made by this workflow don't always start a Pages build on their own, so ask for one.
+      - name: Publish the site
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages will pick up the commit on its next build."

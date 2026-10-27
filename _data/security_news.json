@@ -1,0 +1,1289 @@
+{
+ "updated": "2026-10-27T03:17:51Z",
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "home": "https://thehackernews.com"
+  },
+  {
+   "name": "BleepingComputer",
+   "home": "https://www.bleepingcomputer.com"
+  },
+  {
+   "name": "Krebs on Security",
+   "home": "https://krebsonsecurity.com"
+  },
+  {
+   "name": "SecurityWeek",
+   "home": "https://www.securityweek.com"
+  },
+  {
+   "name": "The Record",
+   "home": "https://therecord.media"
+  },
+  {
+   "name": "CISA advisories",
+   "home": "https://www.cisa.gov/news-events/cybersecurity-advisories"
+  },
+  {
+   "name": "SANS ISC",
+   "home": "https://isc.sans.edu"
+  },
+  {
+   "name": "Google Security Blog",
+   "home": "https://security.googleblog.com"
+  },
+  {
+   "name": "Schneier on Security",
+   "home": "https://www.schneier.com"
+  }
+ ],
+ "kev": [
+  {
+   "cve": "CVE-2026-109619",
+   "name": "PHP Stale Internal Request-State Vulnerability",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "added": "2026-10-26",
+   "due": "2026-10-29",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
+  },
+  {
+   "cve": "CVE-2026-109618",
+   "name": "PHP Memory Corruption Vulnerability",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "added": "2026-10-26",
+   "due": "2026-10-29",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
+  },
+  {
+   "cve": "CVE-2026-114625",
+   "name": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+   "vendor": "Arista",
+   "product": "VeloCloud Orchestrator",
+   "added": "2026-10-23",
+   "due": "2026-10-26",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
+  },
+  {
+   "cve": "CVE-2026-110447",
+   "name": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+   "vendor": "Collabora",
+   "product": "Collabora Online – Built-in CODE Server",
+   "added": "2026-10-23",
+   "due": "2026-10-26",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
+  },
+  {
+   "cve": "CVE-2026-96656",
+   "name": "Plex Media Server External Control of File Name or Path Vulnerability",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
+  },
+  {
+   "cve": "CVE-2026-96655",
+   "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
+  },
+  {
+   "cve": "CVE-2026-96654",
+   "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
+  },
+  {
+   "cve": "CVE-2026-96652",
+   "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
+  },
+  {
+   "cve": "CVE-2026-110936",
+   "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+   "vendor": "Siemens",
+   "product": "Software Center",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
+  },
+  {
+   "cve": "CVE-2026-106931",
+   "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+   "vendor": "EG Secure Solutions",
+   "product": "SiteGuard Server Edition",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
+  },
+  {
+   "cve": "CVE-2026-102764",
+   "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+   "vendor": "BeyondTrust",
+   "product": "Remote Support",
+   "added": "2026-10-16",
+   "due": "2026-10-19",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
+  },
+  {
+   "cve": "CVE-2025-61624",
+   "name": "Fortinet Multiple Products Path Traversal Vulnerability",
+   "vendor": "Fortinet",
+   "product": "Multiple Products",
+   "added": "2026-10-16",
+   "due": "2026-10-19",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
+  }
+ ],
+ "items": [
+  {
+   "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
+   "url": "https://isc.sans.edu/diary/rss/33462",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-27T02:55:13Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+   "url": "https://isc.sans.edu/diary/rss/33458",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-27T02:09:55Z",
+   "excerpt": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
+   "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-27T01:30:00Z",
+   "excerpt": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics.",
+   "topics": []
+  },
+  {
+   "title": "University of Copenhagen data breach exposes data of 525,000 people",
+   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T22:20:36Z",
+   "excerpt": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+   "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T21:08:28Z",
+   "excerpt": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. …",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Texas sues OpenAI for deceiving consumers about safety, seeks sweeping reforms and fines",
+   "url": "https://therecord.media/texas-sues-openai-deceiving-customers",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-10-26T21:03:00Z",
+   "excerpt": "In an unusual move, the suit — brought under the state’s deceptive trade practices laws — seeks to hold founder and CEO Sam Altman personally liable for the alleged deception.",
+   "topics": []
+  },
+  {
+   "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T20:46:49Z",
+   "excerpt": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. …",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
+   "url": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-26T20:20:56Z",
+   "excerpt": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful, life-threatening tasks.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "DreamHost forces password resets in ongoing \"incident\"",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T19:26:20Z",
+   "excerpt": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. …",
+   "topics": []
+  },
+  {
+   "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+   "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T18:12:22Z",
+   "excerpt": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to…",
+   "topics": []
+  },
+  {
+   "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+   "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T17:45:57Z",
+   "excerpt": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Serbian autocrat loses election following widespread reports of digital repression",
+   "url": "https://therecord.media/serbia-election-spyware-vucic",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-10-26T17:30:00Z",
+   "excerpt": "Serbian strongman leader Aleksandar Vučić on Sunday admitted defeat in his race for prime minister, a loss that follows a series of incidents of digital repression that galvanized the opposition.",
+   "topics": []
+  },
+  {
+   "title": "Ukraine disputes Musk's claims of Starlink misuse as military connectivity restored",
+   "url": "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-10-26T16:40:00Z",
+   "excerpt": "Ukrainian Defense Minister Yevhen Khmara said Saturday that Starlink and Starshield connectivity had been restored.",
+   "topics": []
+  },
+  {
+   "title": "Dutch police extradite Chinese national accused of laundering Cambodian investment scam funds",
+   "url": "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-10-26T16:37:00Z",
+   "excerpt": "44-year-old Zheng Zhao was allegedly a key money-launderer working with a group of scammers who called U.S.-based victims and urged them to invest in fictitious businesses.",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T16:27:57Z",
+   "excerpt": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+   "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T15:52:40Z",
+   "excerpt": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver…",
+   "topics": [
+    "ransomware",
+    "phishing",
+    "malware"
+   ]
+  },
+  {
+   "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T15:38:24Z",
+   "excerpt": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+   "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-26T14:52:14Z",
+   "excerpt": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+   "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-26T14:40:48Z",
+   "excerpt": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected.",
+   "topics": []
+  },
+  {
+   "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+   "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-26T14:30:09Z",
+   "excerpt": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI.",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
+   "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-10-26T14:21:00Z",
+   "excerpt": "CERT-UA says it has identified cases in which hackers compromised Dahua internet-connected cameras and video recorders, changed their settings and created unauthorized user accounts.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+   "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T14:06:13Z",
+   "excerpt": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security…",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T14:00:10Z",
+   "excerpt": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. …",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T13:56:44Z",
+   "excerpt": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. …",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
+   "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-26T13:30:10Z",
+   "excerpt": "Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
+   "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-26T12:46:44Z",
+   "excerpt": "Small loader code injected into the stores served a payload to visitors or did nothing to avoid detection.",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-26T12:00:00Z",
+   "excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching: CVE-2026-109618 – PHP Memory Corruption Vulnerability CVE-2026-109619 – PHP…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T11:52:41Z",
+   "excerpt": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
+   "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-26T11:47:52Z",
+   "excerpt": "The individuals called victims and persuaded them to install an app and scan their credit cards to loot their bank accounts.",
+   "topics": []
+  },
+  {
+   "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+   "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T11:23:56Z",
+   "excerpt": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds…",
+   "topics": []
+  },
+  {
+   "title": "Bias in Qwen3-Coder Model",
+   "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-26T11:03:31Z",
+   "excerpt": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives…",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+   "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T10:26:52Z",
+   "excerpt": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. …",
+   "topics": []
+  },
+  {
+   "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+   "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-26T10:21:57Z",
+   "excerpt": "An out-of-bounds write in Google’s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+   "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T09:54:02Z",
+   "excerpt": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Looking for a Language [Guest Diary], (Wed, Oct 21st)",
+   "url": "https://isc.sans.edu/diary/rss/33442",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-26T09:38:03Z",
+   "excerpt": "[This is a Guest Diary by Jeffray Spence, an ISC intern as part of the SANS.edu BACS program]",
+   "topics": []
+  },
+  {
+   "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+   "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-26T09:19:57Z",
+   "excerpt": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+   "url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-26T09:10:03Z",
+   "excerpt": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub.",
+   "topics": []
+  },
+  {
+   "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+   "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T08:35:51Z",
+   "excerpt": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.…",
+   "topics": []
+  },
+  {
+   "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+   "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T07:49:46Z",
+   "excerpt": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub…",
+   "topics": []
+  },
+  {
+   "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+   "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-26T06:03:48Z",
+   "excerpt": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real…",
+   "topics": [
+    "malware",
+    "ai"
+   ]
+  },
+  {
+   "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
+   "url": "https://isc.sans.edu/diary/rss/33456",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-26T03:30:12Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+   "url": "https://isc.sans.edu/diary/rss/33454",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-25T19:57:53Z",
+   "excerpt": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+   "topics": []
+  },
+  {
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-25T17:44:09Z",
+   "excerpt": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port…",
+   "topics": [
+    "vulnerabilities",
+    "breaches"
+   ]
+  },
+  {
+   "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-25T17:19:46Z",
+   "excerpt": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-25T15:49:38Z",
+   "excerpt": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. …",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+   "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-25T06:54:29Z",
+   "excerpt": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+   "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-24T14:17:32Z",
+   "excerpt": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-24T11:09:29Z",
+   "excerpt": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+   "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-24T11:03:33Z",
+   "excerpt": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration…",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+   "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-24T10:36:33Z",
+   "excerpt": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+   "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-24T09:04:24Z",
+   "excerpt": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+   "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-24T06:25:57Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Friday Squid Blogging: Increasing Squid Populations",
+   "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-23T21:00:09Z",
+   "excerpt": "This article in Nature argues that it’s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+   "topics": []
+  },
+  {
+   "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-23T20:55:05Z",
+   "excerpt": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of…",
+   "topics": [
+    "vulnerabilities",
+    "breaches"
+   ]
+  },
+  {
+   "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33452",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-23T20:04:47Z",
+   "excerpt": "Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-23T18:54:41Z",
+   "excerpt": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. …",
+   "topics": [
+    "phishing",
+    "ai"
+   ]
+  },
+  {
+   "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+   "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-23T18:50:13Z",
+   "excerpt": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+   "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-23T17:54:08Z",
+   "excerpt": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+   "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-23T17:50:47Z",
+   "excerpt": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as…",
+   "topics": [
+    "ransomware",
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-23T17:05:07Z",
+   "excerpt": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. …",
+   "topics": []
+  },
+  {
+   "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+   "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-23T13:50:56Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that…",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33450",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-23T13:43:20Z",
+   "excerpt": "This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-23T12:00:00Z",
+   "excerpt": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-110447 Collabora Online – Built-in CODE Server OS Command Injection Vulnerability This type of vulnerability is a…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+   "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-23T11:25:43Z",
+   "excerpt": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+   "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-23T11:11:23Z",
+   "excerpt": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Compromised TLS Certificates",
+   "url": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-23T11:04:22Z",
+   "excerpt": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys: The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384…",
+   "topics": []
+  },
+  {
+   "title": "ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33448",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-23T10:25:11Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+   "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-23T09:36:00Z",
+   "excerpt": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "New Serious PHP Vulnerabilities Released and Patched",
+   "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-22T13:26:51Z",
+   "excerpt": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens SIMATIC S7 Webserver API",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary The products listed below contain multiple vulnerabilities that could allow an attacker to cause a denial of service and potentially impact the availability of the affected device. Siemens has released new versions for several affected…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens RUGGEDCOM CROSSBOW",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform unauthorized…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens RUGGEDCOM APE1808 Devices",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer support to receive…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens Industrial Edge App Publisher",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary The Industrial Edge App Publisher contains a vulnerability chain involving improper certificate validation and the rendering of unescaped data from backend responses. These issues can be combined to allow an attacker on the network to…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens WinCC",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens has released new…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens Industrial Edge Device Kit",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary Users of Industrial Edge Devices are advised to consult the respective Security Advisories for their devices (for Siemens Industrial Edge devices see Additional Information). Industrial Edge Device Kit contains multiple path traversal…",
+   "topics": []
+  },
+  {
+   "title": "Siemens Capital Embedded AR Classic",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary The products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embedded AR Classic…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "InterSystems Corporation InterSystems IRIS for Health",
+   "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to view transmitted data and use that data to log into the device. The following versions of InterSystems Corporation InterSystems IRIS for Health are affected…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens PSS(R)SINCAL",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-06",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary PSS(R)SINCAL uses WibuKey third-party product that contains an out-of-bounds write vulnerability. An attacker could exploit this vulnerability to cause a system crash, resulting in a denial-of-service condition. This affects PSS SINCAL only…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens Software Center",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-03",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to…",
+   "topics": []
+  },
+  {
+   "title": "Siemens SIMATIC IPCs",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary The products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enabled. Siemens has…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens Industrial Edge Devices",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-17",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary Siemens Industrial Edge Devices contain multiple path traversal vulnerabilities that could facilitate an authenticated remote attacker to access sensitive internal information. Siemens has released new versions for several affected products…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Managing AI Token Consumption for Operational Resilience",
+   "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, Managing AI Token Consumption for Operational Resilience, to help organizations understand and manage token usage in support of operations. As…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Siemens SIMATIC S7-1500 TM MFP",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available.…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Kiloview E3 NDI Encoder",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary Successful exploitation of this these vulnerabilities could allow an attacker to fully compromise the device. The following versions of Kiloview E3 NDI Encoder are affected: E3 Firmware <1.30 (CVE-2026-109122, CVE-2026-111100…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens SENTRON 3NA COM Fuse",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require the affected…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens SIMATIC S7 PLCs Web Server",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary SIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that user’s…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-22T12:00:00Z",
+   "excerpt": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive information.…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
+   "url": "https://isc.sans.edu/diary/rss/33446",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-22T02:00:02Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
+   "url": "https://isc.sans.edu/diary/rss/33440",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-21T21:02:43Z",
+   "excerpt": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the patch became…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+   "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+   "source": "Krebs on Security",
+   "source_id": "krebs",
+   "published": "2026-10-21T15:26:07Z",
+   "excerpt": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-21T12:00:00Z",
+   "excerpt": "Update October 26, 2026: CISA has updated this Alert to reflect the addition of CVE-2026-109618 and CVE-2026-109619 to its Known Exploited Vulnerabilities (KEV) Catalog on Oct. 26, 2026. Update October 23, 2026: CISA has updated this Alert to: (1) provide a…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Workshop on Economics and Information Security (WEIS) Archive",
+   "url": "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-21T11:02:22Z",
+   "excerpt": "There’s a new archive of all the papers from twenty-five years of the Workshop on Economics and Information Security (WEIS). Really nice resource. It’s fun to reread my 2002 essay on the economics of information security.",
+   "topics": []
+  },
+  {
+   "title": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
+   "url": "https://isc.sans.edu/diary/rss/33438",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-10-21T02:00:03Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "#StopRansomware: SafePay Ransomware",
+   "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-10-20T12:00:00Z",
+   "excerpt": "Advisory at a Glance Title #StopRansomware: SafePay Ransomware Original Publication October 20, 2026 Executive Summary This advisory details recent activity by the SafePay ransomware group. SafePay actors have been highly active since August 2024, targeting…",
+   "topics": [
+    "ransomware"
+   ]
+  },
+  {
+   "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+   "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-20T11:03:13Z",
+   "excerpt": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the “advanced unlocking services” they’ve marketed for years. A press release from…",
+   "topics": [
+    "vulnerabilities",
+    "breaches"
+   ]
+  },
+  {
+   "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+   "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+   "source": "Krebs on Security",
+   "source_id": "krebs",
+   "published": "2026-10-19T13:48:56Z",
+   "excerpt": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion…",
+   "topics": [
+    "ransomware"
+   ]
+  },
+  {
+   "title": "Training AIs to Solve CAPTCHAs",
+   "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-19T11:07:43Z",
+   "excerpt": "Interesting research: Abstract: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as…",
+   "topics": []
+  },
+  {
+   "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
+   "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-16T21:06:47Z",
+   "excerpt": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+   "topics": []
+  },
+  {
+   "title": "Backdooring Open-Weight AI Models",
+   "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-16T11:04:53Z",
+   "excerpt": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it’s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it’s the most popular reason people…",
+   "topics": [
+    "malware",
+    "ai"
+   ]
+  },
+  {
+   "title": "Measuring Human Cryptanalysis Effort",
+   "url": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-10-15T16:24:29Z",
+   "excerpt": "Matthew Green has a new site that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms: Abstract: We estimate how much public cryptanalysis each public-key assumption has received, using the…",
+   "topics": []
+  },
+  {
+   "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+   "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+   "source": "Krebs on Security",
+   "source_id": "krebs",
+   "published": "2026-10-14T14:22:49Z",
+   "excerpt": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping…",
+   "topics": [
+    "ransomware",
+    "phishing"
+   ]
+  },
+  {
+   "title": "Microsoft Patches More Than 1,400 Security Flaws",
+   "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+   "source": "Krebs on Security",
+   "source_id": "krebs",
+   "published": "2026-10-13T23:24:53Z",
+   "excerpt": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+   "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+   "source": "Krebs on Security",
+   "source_id": "krebs",
+   "published": "2026-10-10T00:17:42Z",
+   "excerpt": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of…",
+   "topics": [
+    "ransomware"
+   ]
+  },
+  {
+   "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+   "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+   "source": "Krebs on Security",
+   "source_id": "krebs",
+   "published": "2026-10-07T13:48:45Z",
+   "excerpt": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the…",
+   "topics": [
+    "ransomware",
+    "breaches"
+   ]
+  }
+ ]
+}
