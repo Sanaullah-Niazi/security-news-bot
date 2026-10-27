@@ -99,6 +99,16 @@ class _Text(HTMLParser):
             self.parts.append(data)
 
 
+def unescape_all(text):
+    """Some feeds escape twice ("&amp;#39;"), so unescape until nothing changes."""
+    for _ in range(3):
+        unescaped = html.unescape(text)
+        if unescaped == text:
+            break
+        text = unescaped
+    return text
+
+
 def plain(text):
     """Feed text (often HTML) as one line of plain text."""
     if not text:
@@ -110,7 +120,7 @@ def plain(text):
         text = "".join(p.parts)
     except Exception:
         text = re.sub(r"<[^>]+>", " ", text)
-    text = html.unescape(text)
+    text = unescape_all(text)
     # WordPress feeds end with "The post X appeared first on Y." and "[…]"; neither belongs in an excerpt.
     text = re.sub(r"The post .{0,300}? appeared first on .{0,100}?\.?\s*$", "", text.strip())
     text = re.sub(r"\[(…|\.\.\.|&#8230;)\]", "…", text)
@@ -127,6 +137,11 @@ def shorten(text, limit):
 def safe_url(url):
     url = (url or "").strip()
     return url if re.match(r"^https?://[^\s\"'<>]+$", url) else ""
+
+
+def article_url(url):
+    """The story's own page. SANS ISC's feed links to /diary/rss/<id>, which is a feed, not the diary."""
+    return re.sub(r"^(https://isc\.sans\.edu/diary)/rss/(\d+)", r"\1/\2", url)
 
 
 def parse_date(value):
@@ -184,7 +199,7 @@ def parse_feed(raw, source):
                 break
     out = []
     for title, link, date, summary in stories:
-        title, link, when = plain(title), safe_url(link), parse_date(date)
+        title, link, when = plain(title), article_url(safe_url(link)), parse_date(date)
         if not title or not link or not when:
             continue
         excerpt = shorten(plain(summary), EXCERPT_CHARS)
@@ -236,6 +251,7 @@ def collect(feed_dir, old_items, now):
         when = parse_date(it.get("published"))
         if not when or when < cutoff or when > now + dt.timedelta(hours=6):
             continue
+        it["url"], it["title"] = article_url(it["url"]), unescape_all(it["title"])
         ku, kt = key_url(it["url"]), key_title(it["title"])
         if ku in seen_u or kt in seen_t:
             continue

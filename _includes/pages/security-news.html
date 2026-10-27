@@ -65,7 +65,7 @@
       {%- for it in news.items %}
       <li data-topics="{{ it.topics | join: '|' | escape }}">
         <p class="sn-meta"><span class="sn-source">{{ it.source | escape }}</span> · <time datetime="{{ it.published | escape }}">{% include date.html date=it.published long=true %}</time></p>
-        <h3{{ en_attr }}><a href="{{ it.url | escape }}" rel="noopener">{{ it.title | escape }}</a></h3>
+        <h3{{ en_attr }}><a href="{{ it.url | replace: '//isc.sans.edu/diary/rss/', '//isc.sans.edu/diary/' | escape }}" rel="noopener">{{ it.title | escape }}</a></h3>
         {% if it.excerpt != "" %}<p class="sn-excerpt"{{ en_attr }}>{{ it.excerpt | escape }}</p>{% endif %}
         {% if it.topics.size > 0 %}<ul class="tags" aria-label="{{ S.topics }}">{% for t in it.topics %}{% assign tk = 'sn_topic_' | append: t %}<li>{{ S[tk] | default: t | escape }}</li>{% endfor %}</ul>{% endif %}
       </li>
@@ -81,6 +81,9 @@
     <p>{{ S.sn_about }}{% if lang != 'en' %} {{ S.sn_in_english }}{% endif %}</p>
     <ul class="sn-sources">
       {%- for s in news.sources %}
+      {%- comment -%} A source with no stories right now (its feed failed or was quiet) isn't listed. {%- endcomment %}
+      {%- assign s_items = news.items | where: "source", s.name %}
+      {%- if s_items.size == 0 %}{% continue %}{% endif %}
       <li><a href="{{ s.home | escape }}" rel="noopener">{{ s.name | escape }}</a></li>
       {%- endfor %}
     </ul>
