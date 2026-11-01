@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T10:55:19Z",
+ "updated": "2026-11-01T11:50:04Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -161,6 +161,144 @@
   }
  ],
  "items": [
+  {
+   "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+   "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-01T11:15:00Z",
+   "excerpt": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues.",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "OneNote File Extraction, (Sun, Nov 1st)",
+   "url": "https://isc.sans.edu/diary/33478",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-01T09:12:23Z",
+   "excerpt": "Recently, I had to extract embedded files from a set of OneNote files (extension .one).",
+   "topics": []
+  },
+  {
+   "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-01T08:51:31Z",
+   "excerpt": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once…",
+   "topics": [
+    "vulnerabilities",
+    "phishing"
+   ]
+  },
+  {
+   "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+   "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-01T07:25:40Z",
+   "excerpt": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it…",
+   "topics": []
+  },
+  {
+   "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+   "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-01T07:03:00Z",
+   "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and…",
+   "topics": []
+  },
+  {
+   "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+   "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-01T07:02:58Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Northflank security breach leads to abuse of customers' AI API keys",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-31T18:01:12Z",
+   "excerpt": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. …",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-31T15:35:11Z",
+   "excerpt": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Reddit to lock content behind logins to fight scrapers",
+   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-31T14:05:15Z",
+   "excerpt": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. …",
+   "topics": []
+  },
+  {
+   "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-31T13:10:19Z",
+   "excerpt": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce…",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-10-31T12:50:09Z",
+   "excerpt": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. …",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-10-31T12:01:56Z",
+   "excerpt": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its…",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+   "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-10-31T11:00:00Z",
+   "excerpt": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities.",
+   "topics": []
+  },
   {
    "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
    "url": "https://isc.sans.edu/diary/33476",
@@ -1621,146 +1759,6 @@
    "published": "2026-10-27T20:57:25Z",
    "excerpt": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. …",
    "topics": []
-  },
-  {
-   "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
-   "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-27T20:40:00Z",
-   "excerpt": "Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.",
-   "topics": [
-    "ransomware"
-   ]
-  },
-  {
-   "title": "US indicts Malaysian national after Madagascar scam operation uncovered",
-   "url": "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-27T19:30:00Z",
-   "excerpt": "DOJ action against five foreign nationals — plus a sting in Madagascar — highlight the expanding global reach of the scam center industry.",
-   "topics": [
-    "phishing"
-   ]
-  },
-  {
-   "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-   "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-27T18:26:46Z",
-   "excerpt": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed…",
-   "topics": [
-    "breaches",
-    "ai"
-   ]
-  },
-  {
-   "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-27T18:20:28Z",
-   "excerpt": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. …",
-   "topics": []
-  },
-  {
-   "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-   "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-27T16:15:39Z",
-   "excerpt": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. …",
-   "topics": [
-    "breaches",
-    "ai"
-   ]
-  },
-  {
-   "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
-   "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-27T15:26:12Z",
-   "excerpt": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released.",
-   "topics": [
-    "vulnerabilities",
-    "malware"
-   ]
-  },
-  {
-   "title": "Hackers repeatedly breached suppliers holding UK police data, watchdog finds",
-   "url": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-27T15:07:00Z",
-   "excerpt": "His Majesty’s Inspectorate of Constabulary and Fire & Rescue Services says British police data has been breach several times this decade through third-party IT suppliers.",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "University of New Mexico hospital diverts ambulances after cyberattack",
-   "url": "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-27T14:57:00Z",
-   "excerpt": "For about two hours on Monday, the organization diverted ambulances to health systems in Albuquerque and Santa Fe. They were forced to suspend outpatient surgeries and appointments for the remainder of the day.",
-   "topics": []
-  },
-  {
-   "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-   "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-27T14:09:46Z",
-   "excerpt": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-   "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-27T14:01:11Z",
-   "excerpt": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack…",
-   "topics": []
-  },
-  {
-   "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-   "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-27T13:59:48Z",
-   "excerpt": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-   "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-27T13:59:09Z",
-   "excerpt": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Malicious apps prey on Russians’ anxiety about fuel prices, drone strikes",
-   "url": "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-27T13:36:00Z",
-   "excerpt": "Cybercriminals are stuffing infostealer malware into bogus apps aimed at tracking gas prices, police activity, drone strikes and other information of concern to average Russians, researchers said.",
-   "topics": [
-    "malware"
-   ]
   }
  ]
 }
