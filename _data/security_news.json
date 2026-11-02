@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T11:50:04Z",
+ "updated": "2026-11-02T13:29:39Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -162,6 +162,220 @@
  ],
  "items": [
   {
+   "title": "Second wave of suspected cyberattacks hits supermarket freezers across Europe",
+   "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-02T13:00:00Z",
+   "excerpt": "Supermarket and grocery store refrigerators across Europe appear to have been hacked early Monday — the second such incident in recent weeks where attackers have manipulated temperature controls and caused stock to spoil.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-02T12:47:00Z",
+   "excerpt": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. …",
+   "topics": [
+    "vulnerabilities",
+    "breaches"
+   ]
+  },
+  {
+   "title": "AI Vulnerability Finding",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-11-02T12:02:34Z",
+   "excerpt": "A comment: 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking…",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+   "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-02T11:50:00Z",
+   "excerpt": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every…",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+   "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-02T11:30:00Z",
+   "excerpt": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+   "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-02T11:29:39Z",
+   "excerpt": "The extension performed host reconnaissance and attempted to create a reverse SSH tunnel.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+   "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-02T11:28:42Z",
+   "excerpt": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. …",
+   "topics": [
+    "ransomware"
+   ]
+  },
+  {
+   "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+   "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-02T11:08:45Z",
+   "excerpt": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one…",
+   "topics": []
+  },
+  {
+   "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+   "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-02T10:49:59Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
+   "url": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-02T10:27:49Z",
+   "excerpt": "The attackers used offensive agentic techniques to access the company’s systems and internal tools.",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-02T09:33:26Z",
+   "excerpt": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
+   "url": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-02T09:33:15Z",
+   "excerpt": "DebugBear says its DNS records were compromised via its domain registrar, and early findings show a single customer was targeted.",
+   "topics": []
+  },
+  {
+   "title": "FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist",
+   "url": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-02T08:40:36Z",
+   "excerpt": "The FBI has officially pinned the $6 billion Binance hack on North Korea’s TraderTraitor as the attackers launder the stolen crypto.",
+   "topics": []
+  },
+  {
+   "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+   "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-02T07:57:49Z",
+   "excerpt": "CISA has added CVE-2026-111357 and CVE-2026-118527 to its KEV catalog after the Ivanti VPN flaws were chained in zero-day attacks.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+   "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-02T05:51:07Z",
+   "excerpt": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families…",
+   "topics": [
+    "breaches",
+    "malware",
+    "ai"
+   ]
+  },
+  {
+   "title": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
+   "url": "https://isc.sans.edu/diary/33480",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-02T02:00:03Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "FBI blames N. Korea’s TraderTraitor for Binance theft, urges crypto industry to block transactions",
+   "url": "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-02T00:00:00Z",
+   "excerpt": "The FBI and U.S. Secret Service alleged this weekend that North Korean hackers were responsible for stealing more than $6.3 billion from cryptocurrency platform Binance last week.",
+   "topics": []
+  },
+  {
+   "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-01T19:57:53Z",
+   "excerpt": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. …",
+   "topics": []
+  },
+  {
+   "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+   "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-01T15:11:21Z",
+   "excerpt": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-01T13:53:11Z",
+   "excerpt": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. …",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
    "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
    "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
    "source": "SecurityWeek",
@@ -209,7 +423,7 @@
    "source": "The Hacker News",
    "source_id": "thehackernews",
    "published": "2026-11-01T07:03:00Z",
-   "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and…",
+   "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow…",
    "topics": []
   },
   {
@@ -1541,224 +1755,6 @@
    "topics": [
     "vulnerabilities"
    ]
-  },
-  {
-   "title": "Studying Fraudulent North Korean IT Workers",
-   "url": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
-   "source": "Schneier on Security",
-   "source_id": "schneier",
-   "published": "2026-10-28T11:05:00Z",
-   "excerpt": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers.",
-   "topics": [
-    "phishing"
-   ]
-  },
-  {
-   "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
-   "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-28T10:48:00Z",
-   "excerpt": "Four EPICS Base flaws found by an autonomous system could let attackers crash processes at particle accelerators and fusion labs.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-28T10:46:23Z",
-   "excerpt": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-   "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-28T10:30:00Z",
-   "excerpt": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while…",
-   "topics": [
-    "phishing",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
-   "url": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-28T10:30:00Z",
-   "excerpt": "The process that gates nearly every B2B deal is a self-assessment the sender distrusts and the receiver accepts. There is finally a better basis for trust between companies.",
-   "topics": []
-  },
-  {
-   "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
-   "url": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-28T09:48:24Z",
-   "excerpt": "The company will use the Series B funds to expand its platform for securing AI agents’ access to sensitive systems.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-   "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-28T09:43:15Z",
-   "excerpt": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. …",
-   "topics": [
-    "ransomware"
-   ]
-  },
-  {
-   "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-   "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-28T09:14:23Z",
-   "excerpt": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
-   "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-28T08:37:24Z",
-   "excerpt": "CISA added the Brotli flaw to its KEV catalog, and two honeypot operators logged attempts, including one that used a broken exploit.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-   "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-28T08:15:07Z",
-   "excerpt": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was…",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-   "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-28T07:37:50Z",
-   "excerpt": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to the service being used to commit and facilitate prolific criminal activity…",
-   "topics": []
-  },
-  {
-   "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-   "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-28T07:13:21Z",
-   "excerpt": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a…",
-   "topics": [
-    "ransomware",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-   "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-28T06:20:37Z",
-   "excerpt": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Tailscale SSH forwards network…",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-   "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-28T06:04:58Z",
-   "excerpt": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-   "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-28T05:42:26Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active…",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
-   "url": "https://isc.sans.edu/diary/33464",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-10-28T02:30:11Z",
-   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-   "topics": []
-  },
-  {
-   "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-   "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-27T23:35:51Z",
-   "excerpt": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. …",
-   "topics": [
-    "ransomware",
-    "breaches"
-   ]
-  },
-  {
-   "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-27T22:43:27Z",
-   "excerpt": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. …",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-   "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-27T22:07:34Z",
-   "excerpt": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. …",
-   "topics": [
-    "ransomware"
-   ]
-  },
-  {
-   "title": "Hackers hijack Convertr analytics script to steal payment card data",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-27T20:57:25Z",
-   "excerpt": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. …",
-   "topics": []
   }
  ]
 }
