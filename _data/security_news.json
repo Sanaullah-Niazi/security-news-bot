@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:47:43Z",
+ "updated": "2026-11-04T12:59:18Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -39,6 +39,16 @@
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-119977",
+   "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+   "vendor": "WordPress",
+   "product": "WordPress Core",
+   "added": "2026-11-03",
+   "due": "2026-11-06",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
+  },
   {
    "cve": "CVE-2026-118527",
    "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
@@ -148,19 +158,417 @@
    "due": "2026-10-26",
    "ransomware": false,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
-  },
-  {
-   "cve": "CVE-2026-110447",
-   "name": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-   "vendor": "Collabora",
-   "product": "Collabora Online – Built-in CODE Server",
-   "added": "2026-10-23",
-   "due": "2026-10-26",
-   "ransomware": false,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
   }
  ],
  "items": [
+  {
+   "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+   "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T12:43:20Z",
+   "excerpt": "Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks.",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
+   "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T12:27:58Z",
+   "excerpt": "A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency.",
+   "topics": []
+  },
+  {
+   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T12:11:05Z",
+   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T12:07:04Z",
+   "excerpt": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T11:46:27Z",
+   "excerpt": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+   "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T11:34:20Z",
+   "excerpt": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One…",
+   "topics": []
+  },
+  {
+   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T11:24:31Z",
+   "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+   "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T10:54:48Z",
+   "excerpt": "Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions.",
+   "topics": []
+  },
+  {
+   "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
+   "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T10:38:46Z",
+   "excerpt": "The browser update resolves dozens of memory safety bugs and incorrect/missing authorization issues.",
+   "topics": []
+  },
+  {
+   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T10:36:32Z",
+   "excerpt": "Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T09:39:54Z",
+   "excerpt": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. …",
+   "topics": [
+    "vulnerabilities",
+    "phishing"
+   ]
+  },
+  {
+   "title": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
+   "url": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T09:23:22Z",
+   "excerpt": "In recent months, North Korea has accelerated its weapons tests in a likely bid to increase its leverage in potential diplomacy with the US.",
+   "topics": []
+  },
+  {
+   "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
+   "url": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T08:27:05Z",
+   "excerpt": "A $300,000 award went to a pre-launch flaw that exposed conversations and tokens on internal Muse test VMs used by Meta staff.",
+   "topics": [
+    "vulnerabilities",
+    "breaches"
+   ]
+  },
+  {
+   "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+   "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T08:17:11Z",
+   "excerpt": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016.…",
+   "topics": []
+  },
+  {
+   "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+   "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T07:46:15Z",
+   "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+   "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T05:43:11Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
+   "url": "https://isc.sans.edu/diary/33486",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-04T02:10:02Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-03T22:18:50Z",
+   "excerpt": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. …",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-03T21:28:44Z",
+   "excerpt": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. …",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-03T20:05:50Z",
+   "excerpt": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets. …",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Google dismantles massive botnet hidden in Android TV boxes",
+   "url": "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-03T19:48:00Z",
+   "excerpt": "The overwhelming majority of the infected devices in the X.CPE botnet are Android TV set-top boxes, Google said, adding that they observed a number of other infected Android-based IoT devices, including telehealth devices, karaoke machines and digital signage…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+   "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-03T18:51:04Z",
+   "excerpt": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. …",
+   "topics": [
+    "phishing",
+    "ai"
+   ]
+  },
+  {
+   "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+   "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-03T18:46:38Z",
+   "excerpt": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent…",
+   "topics": []
+  },
+  {
+   "title": "Several German lawmakers and foreign policy staff received Apple warnings on spyware",
+   "url": "https://therecord.media/german-officials-among-apple-spyware-warning-recipients",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-03T18:44:00Z",
+   "excerpt": "Members of Germany's political elite were among the spyware targets in 99 countries that Apple personally warned recently.",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+   "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-03T18:16:19Z",
+   "excerpt": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial…",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "British businesses caught in Europe-wide supermarket fridge attacks",
+   "url": "https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-03T17:43:00Z",
+   "excerpt": "Supermarket and grocery store refrigerator controls across Europe were hacked in the early hours of Monday in the second such wave of attacks in recent weeks — following a first wave in France — with unidentified perpetrators defrosting fridges and causing…",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+   "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-03T16:55:58Z",
+   "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility",
+   "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-03T16:42:00Z",
+   "excerpt": "North Korean attackers \"combined a range of techniques, including social engineering by fake recruitment interviews,\" Binance said about the multibillion-dollar crypto heist it discovered in October.",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+   "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-03T15:59:19Z",
+   "excerpt": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-03T15:41:53Z",
+   "excerpt": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the…",
+   "topics": [
+    "phishing",
+    "ai"
+   ]
+  },
+  {
+   "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+   "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-03T15:16:32Z",
+   "excerpt": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Barracuda warns of critical flaws allowing root access to devices",
+   "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-03T15:06:16Z",
+   "excerpt": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+   "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-03T15:00:10Z",
+   "excerpt": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+   "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-03T14:32:38Z",
+   "excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students.",
+   "topics": [
+    "vulnerabilities",
+    "breaches"
+   ]
+  },
+  {
+   "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+   "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-03T14:12:44Z",
+   "excerpt": "The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-03T14:00:00Z",
+   "excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. …",
+   "topics": [
+    "ransomware",
+    "ai"
+   ]
+  },
+  {
+   "title": "Russia dismantles infrastructure of VasyGrek cybercrime group, detains three suspects",
+   "url": "https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-03T13:50:00Z",
+   "excerpt": "Russia's Interior Ministry said Monday that police had dismantled the group's infrastructure and identified its suspected members following an investigation conducted with assistance from cybersecurity firm Kaspersky.",
+   "topics": []
+  },
+  {
+   "title": "Police seizes over 100 servers in investment scam crackdown",
+   "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-03T13:33:49Z",
+   "excerpt": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. …",
+   "topics": [
+    "phishing"
+   ]
+  },
   {
    "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
    "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
@@ -201,6 +609,28 @@
    "source_id": "schneier",
    "published": "2026-11-03T12:01:00Z",
    "excerpt": "In both a 2021 essay and my 2022 book, A Hacker’s Mind, I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language.…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Subnet Solutions PowerSYSTEM Center",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-11-03T12:00:00Z",
+   "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources. The following versions of Subnet Solutions PowerSYSTEM Center are affected: PowerSYSTEM…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-11-03T12:00:00Z",
+   "excerpt": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-119977 WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability This type of vulnerability is a…",
    "topics": [
     "vulnerabilities"
    ]
@@ -1320,436 +1750,6 @@
    "excerpt": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system.",
    "topics": [
     "vulnerabilities"
-   ]
-  },
-  {
-   "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
-   "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T08:16:26Z",
-   "excerpt": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop.",
-   "topics": []
-  },
-  {
-   "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-   "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T07:45:30Z",
-   "excerpt": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-   "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T07:27:05Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-   "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T04:14:59Z",
-   "excerpt": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.…",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
-   "url": "https://isc.sans.edu/diary/33472",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-10-30T03:30:17Z",
-   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-   "topics": []
-  },
-  {
-   "title": "Binance hit by record $6.3 billion crypto hack, scrambles to freeze funds",
-   "url": "https://therecord.media/binance-hit-by-record-6-billion-crypto-hack",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-30T00:00:00Z",
-   "excerpt": "Binance, the world's largest cryptocurrency exchange, confirmed Thursday that it had been hacked in a $6.3 billion cyber heist that blockchain investigators are blaming on North Korea.",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T23:35:52Z",
-   "excerpt": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. …",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Binance probes potential $5.8 billion crypto-theft hack",
-   "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T22:45:23Z",
-   "excerpt": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-   "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T22:09:24Z",
-   "excerpt": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding…",
-   "topics": [
-    "malware",
-    "ai"
-   ]
-  },
-  {
-   "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-   "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T22:08:04Z",
-   "excerpt": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-   "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T21:47:25Z",
-   "excerpt": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspected attacker wallet. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Limited reports of PHP bug exploitation emerge",
-   "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-29T20:01:25Z",
-   "excerpt": "One cyber firm listed a half-dozen exploitations of the PHP2Shell bugs, and another identified a well targeted, suspected Chinese campaign that breached U.S. \"government affiliated\" servers.",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms",
-   "url": "https://therecord.media/general-motors-lawsuit-privacy",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-29T19:45:00Z",
-   "excerpt": "General Motors agreed to pay $220 million to settle a lawsuit filed by a coalition of 36 state attorneys general who alleged the company unlawfully sold information about driver behavior to outside parties.",
-   "topics": []
-  },
-  {
-   "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-   "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T19:23:41Z",
-   "excerpt": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. …",
-   "topics": []
-  },
-  {
-   "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-   "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-29T19:11:58Z",
-   "excerpt": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes.…",
-   "topics": [
-    "vulnerabilities",
-    "breaches",
-    "malware"
-   ]
-  },
-  {
-   "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T18:38:26Z",
-   "excerpt": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. …",
-   "topics": [
-    "vulnerabilities",
-    "malware"
-   ]
-  },
-  {
-   "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
-   "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-29T16:30:00Z",
-   "excerpt": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you.",
-   "topics": []
-  },
-  {
-   "title": "Federal bankruptcy courts contractor says no data stolen during cyber intrusion",
-   "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-29T16:13:00Z",
-   "excerpt": "\"No data was extracted,” a spokesperson for BAE Systems, a federal contractor, told Recorded Future News about its probe into a cyberattack against its systems for federal bankruptcy courts.",
-   "topics": []
-  },
-  {
-   "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-   "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T16:10:31Z",
-   "excerpt": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Yahoo. …",
-   "topics": []
-  },
-  {
-   "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-   "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-29T15:57:05Z",
-   "excerpt": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI…",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-   "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-29T15:20:29Z",
-   "excerpt": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub…",
-   "topics": [
-    "malware",
-    "ai"
-   ]
-  },
-  {
-   "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
-   "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-29T15:01:00Z",
-   "excerpt": "Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
-   "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-29T15:00:00Z",
-   "excerpt": "Unpatched voting machines, unverifiable QR-coded ballots, and AI-driven influence campaigns leave US elections short of secure.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T14:35:40Z",
-   "excerpt": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. …",
-   "topics": []
-  },
-  {
-   "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-   "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-29T14:18:03Z",
-   "excerpt": "Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "3 Ways AI Agents Already Operate in Your Browser",
-   "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T14:00:10Z",
-   "excerpt": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T13:59:48Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "FTC to probe major companies over personalized pricing and pay",
-   "url": "https://therecord.media/ftc-rideshare-airlines-data",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-29T13:45:00Z",
-   "excerpt": "The Federal Trade Commission ordered nine food delivery, airline and ride-sharing companies to turn over detailed information on how they harness personal data to set individual consumer prices and employee compensation.",
-   "topics": []
-  },
-  {
-   "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
-   "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-29T13:42:52Z",
-   "excerpt": "The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-   "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-29T13:42:40Z",
-   "excerpt": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for…",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T12:00:07Z",
-   "excerpt": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. …",
-   "topics": []
-  },
-  {
-   "title": "Hitachi Energy CoreTec Product",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-10-29T12:00:00Z",
-   "excerpt": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Hitachi Energy TRO600 series products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-10-29T12:00:00Z",
-   "excerpt": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens Mendix SAML Module",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-10-29T12:00:00Z",
-   "excerpt": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-   "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-29T11:39:41Z",
-   "excerpt": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses…",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-   "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-29T11:39:18Z",
-   "excerpt": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-   "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-29T11:33:41Z",
-   "excerpt": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-   "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-29T11:33:15Z",
-   "excerpt": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning…",
-   "topics": [
-    "breaches",
-    "ai"
-   ]
-  },
-  {
-   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-29T11:10:13Z",
-   "excerpt": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
-   "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-29T11:00:00Z",
-   "excerpt": "The data of So-net and Plala customers in Japan was exposed, along with 54,401 email account passwords and 16 bank account records.",
-   "topics": [
-    "breaches"
    ]
   }
  ]
