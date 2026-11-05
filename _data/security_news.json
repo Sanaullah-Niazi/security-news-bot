@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:59:18Z",
+ "updated": "2026-11-05T13:11:44Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -39,6 +39,16 @@
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2024-27834",
+   "name": "Apple Multiple Products Improper Authentication Vulnerability",
+   "vendor": "Apple",
+   "product": "Multiple Products",
+   "added": "2026-11-04",
+   "due": "2026-11-18",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
+  },
   {
    "cve": "CVE-2026-119977",
    "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
@@ -148,19 +158,420 @@
    "due": "2026-10-29",
    "ransomware": false,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
-  },
-  {
-   "cve": "CVE-2026-114625",
-   "name": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
-   "vendor": "Arista",
-   "product": "VeloCloud Orchestrator",
-   "added": "2026-10-23",
-   "due": "2026-10-26",
-   "ransomware": false,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
   }
  ],
  "items": [
+  {
+   "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+   "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-05T12:58:32Z",
+   "excerpt": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+   "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-05T12:33:49Z",
+   "excerpt": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-05T12:08:54Z",
+   "excerpt": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and…",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)",
+   "url": "https://isc.sans.edu/diary/33490",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-05T11:25:11Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "The Agent Smith Dilemma: Governing Agentic Identities",
+   "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-05T11:15:00Z",
+   "excerpt": "Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
+   "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-05T11:00:00Z",
+   "excerpt": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+   "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-05T10:56:41Z",
+   "excerpt": "Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
+   "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-05T10:37:13Z",
+   "excerpt": "The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+   "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-05T10:06:19Z",
+   "excerpt": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+   "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-05T10:02:00Z",
+   "excerpt": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently.",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+   "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-05T09:18:29Z",
+   "excerpt": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+   "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-05T09:13:28Z",
+   "excerpt": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in…",
+   "topics": []
+  },
+  {
+   "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+   "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-05T08:42:03Z",
+   "excerpt": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the…",
+   "topics": [
+    "malware",
+    "ai"
+   ]
+  },
+  {
+   "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+   "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-05T07:06:33Z",
+   "excerpt": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-05T05:17:04Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The…",
+   "topics": [
+    "vulnerabilities",
+    "malware"
+   ]
+  },
+  {
+   "title": "Want to Rent an Internet Address at the White House?",
+   "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "source": "Krebs on Security",
+   "source_id": "krebs",
+   "published": "2026-11-05T04:36:17Z",
+   "excerpt": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company…",
+   "topics": []
+  },
+  {
+   "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
+   "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-05T00:00:00Z",
+   "excerpt": "Chainalysis, the blockchain analytics company, said Wednesday night that some information belonging to all its users — which its website says include those in the law enforcement and national security sectors — had been exposed in a cyberattack.",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Ukraine fires two senior security officials amid corruption probe into scam call centers",
+   "url": "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-05T00:00:00Z",
+   "excerpt": "Ukraine's security service has fired two senior officials amid a corruption investigation into an alleged criminal network that bribed law enforcement officers to protect fraudulent call centers and other illegal operations.",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "Vercel rolls out new protection against stolen session cookie attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T21:31:18Z",
+   "excerpt": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. …",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
+   "url": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-04T21:30:00Z",
+   "excerpt": "Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines and Malaysia Airlines have all come forward over the last week to report data breaches traced back to Amadeus IT Group — a company that builds and maintains platforms for flight…",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T20:58:19Z",
+   "excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Canadian extradited to US for allegedly hacking schools in at least four states",
+   "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-04T19:17:00Z",
+   "excerpt": "The Department of Justice said it identified two suspects in a case that dates back to 2016 and involved illicit cryptomining on the computers of U.S. educational institutions.",
+   "topics": []
+  },
+  {
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T19:05:19Z",
+   "excerpt": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "French bank confirms cyber heist, hackers suspected to have stolen an estimated $133 million",
+   "url": "https://therecord.media/french-bank-confirms-cyber-heist",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-04T18:58:00Z",
+   "excerpt": "Crédit Mutuel Arkéa said in a press notice that the attackers were able to make transfers using the bank’s own account after compromising an unnamed supplier.",
+   "topics": []
+  },
+  {
+   "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+   "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T18:02:56Z",
+   "excerpt": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. …",
+   "topics": []
+  },
+  {
+   "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+   "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T17:00:46Z",
+   "excerpt": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+   "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T17:00:38Z",
+   "excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T16:58:46Z",
+   "excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. …",
+   "topics": [
+    "breaches",
+    "malware"
+   ]
+  },
+  {
+   "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+   "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T16:06:43Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T16:00:18Z",
+   "excerpt": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+   "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T15:00:10Z",
+   "excerpt": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and…",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T14:42:25Z",
+   "excerpt": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+   "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T14:34:44Z",
+   "excerpt": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-04T14:27:52Z",
+   "excerpt": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+   "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T14:24:54Z",
+   "excerpt": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+   "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-04T14:09:20Z",
+   "excerpt": "The company will invest in agentic data security capabilities and expand its go-to-market organization.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+   "url": "https://isc.sans.edu/diary/33488",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-04T13:24:13Z",
+   "excerpt": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked…",
+   "topics": [
+    "vulnerabilities",
+    "breaches"
+   ]
+  },
+  {
+   "title": "US charges two Canadians accused of hacking US universities",
+   "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-04T13:13:20Z",
+   "excerpt": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. …",
+   "topics": []
+  },
   {
    "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
    "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
@@ -1354,403 +1765,6 @@
    "published": "2026-10-31T11:00:00Z",
    "excerpt": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities.",
    "topics": []
-  },
-  {
-   "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-   "url": "https://isc.sans.edu/diary/33476",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-10-31T10:52:53Z",
-   "excerpt": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.",
-   "topics": []
-  },
-  {
-   "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
-   "url": "https://isc.sans.edu/diary/33474",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-10-31T10:48:17Z",
-   "excerpt": "YARA-X&#;x26;#;39;s 1.22.1 is a bugfix version, it brings 2 bugfixes.",
-   "topics": []
-  },
-  {
-   "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-   "url": "https://isc.sans.edu/diary/33454",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-10-31T10:45:40Z",
-   "excerpt": "YARA-X';s 1.22.0 release brings 11 improvements and 9 bugfixes.",
-   "topics": []
-  },
-  {
-   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-31T08:27:43Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-31T05:33:41Z",
-   "excerpt": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through…",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-31T04:56:12Z",
-   "excerpt": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks…",
-   "topics": []
-  },
-  {
-   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-30T21:09:46Z",
-   "excerpt": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
-   "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
-   "source": "Schneier on Security",
-   "source_id": "schneier",
-   "published": "2026-10-30T21:04:36Z",
-   "excerpt": "Neat video: The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean. As usual, you can also use this squid post to talk about the security…",
-   "topics": []
-  },
-  {
-   "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
-   "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-30T20:45:00Z",
-   "excerpt": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Fashion retailer Resolve says hackers stole payment card information",
-   "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-30T19:00:00Z",
-   "excerpt": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-   "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T16:58:44Z",
-   "excerpt": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-   "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-30T15:58:20Z",
-   "excerpt": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. …",
-   "topics": []
-  },
-  {
-   "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
-   "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-30T15:54:00Z",
-   "excerpt": "The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Bloatware in Aftermarket Auto Parts",
-   "url": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
-   "source": "Schneier on Security",
-   "source_id": "schneier",
-   "published": "2026-10-30T15:20:02Z",
-   "excerpt": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-   "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T15:17:28Z",
-   "excerpt": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
-   "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T15:09:25Z",
-   "excerpt": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week.",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
-   "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T14:41:35Z",
-   "excerpt": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware.",
-   "topics": [
-    "vulnerabilities",
-    "breaches",
-    "malware",
-    "ai"
-   ]
-  },
-  {
-   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-   "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-30T14:36:54Z",
-   "excerpt": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. …",
-   "topics": [
-    "malware",
-    "ai"
-   ]
-  },
-  {
-   "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
-   "url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-30T14:24:00Z",
-   "excerpt": "Ahmad Umar Agha, known online as “Th3Pr0,” was sentenced Thursday in federal court in Virginia to 42 months behind bars for his role in a conspiracy that was organized by former Syrian President Bashar al-Assad's closest advisers.",
-   "topics": []
-  },
-  {
-   "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-   "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T14:08:14Z",
-   "excerpt": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-30T14:00:10Z",
-   "excerpt": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between…",
-   "topics": [
-    "vulnerabilities",
-    "phishing"
-   ]
-  },
-  {
-   "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
-   "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T14:00:00Z",
-   "excerpt": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it.",
-   "topics": []
-  },
-  {
-   "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
-   "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T13:36:12Z",
-   "excerpt": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments.",
-   "topics": [
-    "ransomware",
-    "malware"
-   ]
-  },
-  {
-   "title": "CISA says max severity GitLab flaw now exploited in the wild",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-30T13:00:32Z",
-   "excerpt": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "British spy agency cannot account for thousands of data storage devices, watchdog says",
-   "url": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-10-30T12:52:00Z",
-   "excerpt": "The Investigatory Powers Commissioner’s Office (IPCO) in its annual report for 2025, published Thursday, said it was “very concerned” and “disappointed with the time it has taken GCHQ to investigate” the issue.",
-   "topics": []
-  },
-  {
-   "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-   "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T12:21:56Z",
-   "excerpt": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a…",
-   "topics": []
-  },
-  {
-   "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
-   "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T12:04:13Z",
-   "excerpt": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-10-30T12:00:00Z",
-   "excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-   "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T11:58:53Z",
-   "excerpt": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their concerns are practical. An IPS…",
-   "topics": []
-  },
-  {
-   "title": "Microsoft finally fixes VPN issues caused by September updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-30T11:20:26Z",
-   "excerpt": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. …",
-   "topics": []
-  },
-  {
-   "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
-   "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T11:07:11Z",
-   "excerpt": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-   "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T10:40:45Z",
-   "excerpt": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by…",
-   "topics": []
-  },
-  {
-   "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-30T10:16:07Z",
-   "excerpt": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-   "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T09:41:36Z",
-   "excerpt": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.",
-   "topics": []
-  },
-  {
-   "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
-   "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T09:32:27Z",
-   "excerpt": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-   "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-10-30T09:18:13Z",
-   "excerpt": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. …",
-   "topics": []
-  },
-  {
-   "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-10-30T08:55:47Z",
-   "excerpt": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The…",
-   "topics": [
-    "malware",
-    "ai"
-   ]
-  },
-  {
-   "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-   "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-10-30T08:44:49Z",
-   "excerpt": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system.",
-   "topics": [
-    "vulnerabilities"
-   ]
   }
  ]
 }
