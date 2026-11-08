@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:43:38Z",
+ "updated": "2026-11-08T11:55:47Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -161,6 +161,29 @@
   }
  ],
  "items": [
+  {
+   "title": "Hackers pull off $133 million French bank heist via service provider",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-07T15:25:35Z",
+   "excerpt": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v …",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-07T14:10:19Z",
+   "excerpt": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate…",
+   "topics": [
+    "vulnerabilities",
+    "phishing"
+   ]
+  },
   {
    "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
    "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
@@ -1753,28 +1776,6 @@
    "excerpt": "The botnet was created and operated for financial gain by Android OEM/ODM Videostrong Technology.",
    "topics": [
     "malware"
-   ]
-  },
-  {
-   "title": "NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
-   "url": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-03T08:49:03Z",
-   "excerpt": "The NATO CCDCOE exercise in Estonia introduces AI agents and OpenAI Daybreak into joint cyber and kinetic operations training.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-03T08:31:48Z",
-   "excerpt": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our…",
-   "topics": [
-    "vulnerabilities"
    ]
   }
  ]
