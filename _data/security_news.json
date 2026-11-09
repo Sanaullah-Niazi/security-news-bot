@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:55:47Z",
+ "updated": "2026-11-09T13:53:55Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -161,6 +161,237 @@
   }
  ],
  "items": [
+  {
+   "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
+   "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-09T13:28:56Z",
+   "excerpt": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links with cybercrime gangs. …",
+   "topics": []
+  },
+  {
+   "title": "Pro-Russian hackers target European officials, offer rewards for personal information",
+   "url": "https://therecord.media/hackers-russia-italy-noname",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-09T13:15:00Z",
+   "excerpt": "Pro-Russian hackers published the personal information of Italian Foreign Minister Antonio Tajani and other senior European officials on the dark web, offering cryptocurrency rewards for additional details about them and their families.",
+   "topics": []
+  },
+  {
+   "title": "Plex2Shell Exploited Against QNAP NAS Users",
+   "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-09T13:13:28Z",
+   "excerpt": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
+   "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-09T12:41:27Z",
+   "excerpt": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
+   "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-09T12:22:12Z",
+   "excerpt": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
+   "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-09T12:16:13Z",
+   "excerpt": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. …",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
+   "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-09T12:13:32Z",
+   "excerpt": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit.",
+   "topics": [
+    "vulnerabilities",
+    "malware"
+   ]
+  },
+  {
+   "title": "AI Security",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-11-09T12:05:39Z",
+   "excerpt": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+   "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-09T11:27:53Z",
+   "excerpt": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed…",
+   "topics": []
+  },
+  {
+   "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+   "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-09T11:20:09Z",
+   "excerpt": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+   "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-09T10:56:25Z",
+   "excerpt": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Over 3 Million People Hit by Frontline Education Data Breach",
+   "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-09T10:09:02Z",
+   "excerpt": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+   "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-09T10:01:21Z",
+   "excerpt": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they…",
+   "topics": []
+  },
+  {
+   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+   "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-09T09:01:50Z",
+   "excerpt": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+   "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-09T08:35:50Z",
+   "excerpt": "Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+   "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-09T07:05:48Z",
+   "excerpt": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San…",
+   "topics": []
+  },
+  {
+   "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+   "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-09T06:15:10Z",
+   "excerpt": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+   "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-09T06:05:24Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
+   "url": "https://isc.sans.edu/diary/33500",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-09T02:05:10Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+   "url": "https://isc.sans.edu/diary/33498",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-08T15:44:33Z",
+   "excerpt": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+   "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-08T15:43:08Z",
+   "excerpt": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+   "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-08T12:14:00Z",
+   "excerpt": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses.",
+   "topics": [
+    "ai"
+   ]
+  },
   {
    "title": "Hackers pull off $133 million French bank heist via service provider",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
@@ -1531,251 +1762,6 @@
    "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and…",
    "topics": [
     "ai"
-   ]
-  },
-  {
-   "title": "Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility",
-   "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-03T16:42:00Z",
-   "excerpt": "North Korean attackers \"combined a range of techniques, including social engineering by fake recruitment interviews,\" Binance said about the multibillion-dollar crypto heist it discovered in October.",
-   "topics": [
-    "phishing"
-   ]
-  },
-  {
-   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-   "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-03T15:59:19Z",
-   "excerpt": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-03T15:41:53Z",
-   "excerpt": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the…",
-   "topics": [
-    "phishing",
-    "ai"
-   ]
-  },
-  {
-   "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-   "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-03T15:16:32Z",
-   "excerpt": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that…",
-   "topics": [
-    "malware"
-   ]
-  },
-  {
-   "title": "Barracuda warns of critical flaws allowing root access to devices",
-   "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-03T15:06:16Z",
-   "excerpt": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-   "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-03T15:00:10Z",
-   "excerpt": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
-   "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-03T14:32:38Z",
-   "excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students.",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
-   "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-03T14:12:44Z",
-   "excerpt": "The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-03T14:00:00Z",
-   "excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. …",
-   "topics": [
-    "ransomware",
-    "ai"
-   ]
-  },
-  {
-   "title": "Russia dismantles infrastructure of VasyGrek cybercrime group, detains three suspects",
-   "url": "https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-03T13:50:00Z",
-   "excerpt": "Russia's Interior Ministry said Monday that police had dismantled the group's infrastructure and identified its suspected members following an investigation conducted with assistance from cybersecurity firm Kaspersky.",
-   "topics": []
-  },
-  {
-   "title": "Police seizes over 100 servers in investment scam crackdown",
-   "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-03T13:33:49Z",
-   "excerpt": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. …",
-   "topics": [
-    "phishing"
-   ]
-  },
-  {
-   "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
-   "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-03T12:21:49Z",
-   "excerpt": "The most severe is a critical flaw in Framework leading to remote code execution without user interaction.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Critical Node-RED Flaw Exploited in Attacks",
-   "url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-03T12:10:19Z",
-   "excerpt": "Multiple attacks from the same IP address attempted to deploy various payloads, including a Linux bot and webshells.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-   "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-03T12:05:52Z",
-   "excerpt": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "AIs Hacking the Law",
-   "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-   "source": "Schneier on Security",
-   "source_id": "schneier",
-   "published": "2026-11-03T12:01:00Z",
-   "excerpt": "In both a 2021 essay and my 2022 book, A Hacker’s Mind, I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language.…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Subnet Solutions PowerSYSTEM Center",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-03T12:00:00Z",
-   "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources. The following versions of Subnet Solutions PowerSYSTEM Center are affected: PowerSYSTEM…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-03T11:23:53Z",
-   "excerpt": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-   "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-03T11:18:20Z",
-   "excerpt": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on…",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-   "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-03T11:00:45Z",
-   "excerpt": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear…",
-   "topics": [
-    "vulnerabilities",
-    "malware"
-   ]
-  },
-  {
-   "title": "Harvard University data breach exposed info of 851,000 accounts",
-   "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-03T10:53:25Z",
-   "excerpt": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
-   "url": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-03T09:49:12Z",
-   "excerpt": "The U.K. will likely face AI cyberattacks on its critical infrastructure by 2028 as criminals and states, including China and Russia, increasingly use AI in their cyber activity.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
-   "url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-03T09:22:09Z",
-   "excerpt": "The botnet was created and operated for financial gain by Android OEM/ODM Videostrong Technology.",
-   "topics": [
-    "malware"
    ]
   }
  ]
