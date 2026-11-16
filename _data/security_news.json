@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:43:53Z",
+ "updated": "2026-11-16T13:38:30Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -161,6 +161,253 @@
   }
  ],
  "items": [
+  {
+   "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
+   "url": "https://isc.sans.edu/diary/33522",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-16T13:11:04Z",
+   "excerpt": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained…",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T12:53:18Z",
+   "excerpt": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. …",
+   "topics": []
+  },
+  {
+   "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+   "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-16T12:48:03Z",
+   "excerpt": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims.",
+   "topics": [
+    "vulnerabilities",
+    "malware"
+   ]
+  },
+  {
+   "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+   "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-16T12:34:21Z",
+   "excerpt": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+   "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-16T12:33:18Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Usable Security at Luxury Hotels",
+   "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-11-16T12:04:42Z",
+   "excerpt": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why “just don’t click on links” is…",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "Australian retail giant Coles investigates cybersecurity incident",
+   "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T11:18:09Z",
+   "excerpt": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. …",
+   "topics": []
+  },
+  {
+   "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
+   "url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-16T11:15:48Z",
+   "excerpt": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+   "url": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-16T11:05:42Z",
+   "excerpt": "Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO controllers, including two that threat actors quickly targeted.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Uber Data Breach Impacts 150,000 People",
+   "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-16T11:02:48Z",
+   "excerpt": "Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T11:00:00Z",
+   "excerpt": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. …",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+   "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-16T09:32:57Z",
+   "excerpt": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+   "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T09:30:04Z",
+   "excerpt": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
+   "url": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-16T08:55:32Z",
+   "excerpt": "Tor 0.4.9.17 patches several security issues, including one related to how built-in DoS protections deal with IPv6.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T08:26:52Z",
+   "excerpt": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. …",
+   "topics": []
+  },
+  {
+   "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+   "url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-16T08:15:12Z",
+   "excerpt": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages.",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+   "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-16T07:34:21Z",
+   "excerpt": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team…",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+   "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-16T06:53:34Z",
+   "excerpt": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
+   "url": "https://isc.sans.edu/diary/33520",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-16T02:00:05Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-15T18:29:53Z",
+   "excerpt": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer…",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+   "url": "https://isc.sans.edu/diary/33496",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-15T18:17:27Z",
+   "excerpt": "YARA-X';s 1.23.0 release brings 4 improvements and 16 bugfixes.",
+   "topics": []
+  },
+  {
+   "title": "TSMC employee data breach linked to cloud provider",
+   "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-15T15:23:48Z",
+   "excerpt": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+   "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-15T12:51:33Z",
+   "excerpt": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.",
+   "topics": [
+    "ai"
+   ]
+  },
   {
    "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
    "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
@@ -1510,260 +1757,6 @@
    "published": "2026-11-11T11:16:40Z",
    "excerpt": "Created by Zerto and Kashya veterans, the startup has launched a platform designed to recover whole cloud applications.",
    "topics": []
-  },
-  {
-   "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
-   "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T10:35:15Z",
-   "excerpt": "Pre-Patch Tuesday advisories were published by VDE CERT, Phoenix Contact, Johnson Controls, and Hitachi Energy.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T10:12:08Z",
-   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T09:07:27Z",
-   "excerpt": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. …",
-   "topics": []
-  },
-  {
-   "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-   "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T09:01:07Z",
-   "excerpt": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data.",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
-   "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T08:42:44Z",
-   "excerpt": "Intel and AMD disclose more than 200 vulnerabilities, including critical flaws in Intel TDX software and numerous AMD graphics bugs.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-   "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T08:17:53Z",
-   "excerpt": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
-   "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T07:53:51Z",
-   "excerpt": "The security defects could allow attackers to bypass authorization and gain root access to devices.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-   "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T07:49:04Z",
-   "excerpt": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI…",
-   "topics": [
-    "breaches",
-    "ai"
-   ]
-  },
-  {
-   "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-   "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T07:21:05Z",
-   "excerpt": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that…",
-   "topics": [
-    "malware",
-    "ai"
-   ]
-  },
-  {
-   "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
-   "url": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T07:00:17Z",
-   "excerpt": "Apple has patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T06:04:02Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
-   "url": "https://isc.sans.edu/diary/33510",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-11-11T02:00:03Z",
-   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-   "topics": []
-  },
-  {
-   "title": "Railway breach leads to $740,000 in fraudulent AI charges",
-   "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-10T22:20:19Z",
-   "excerpt": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. …",
-   "topics": [
-    "vulnerabilities",
-    "phishing",
-    "breaches",
-    "ai"
-   ]
-  },
-  {
-   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-   "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-   "source": "Krebs on Security",
-   "source_id": "krebs",
-   "published": "2026-11-10T21:55:03Z",
-   "excerpt": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "US Army member arrested in UK over allegations of spying for Russia",
-   "url": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-10T21:13:00Z",
-   "excerpt": "The unnamed soldier was arrested by British counterterrorism police “working closely” with U.S. authorities, including the FBI and the military, the Metropolitan Police said in a statement.",
-   "topics": []
-  },
-  {
-   "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
-   "url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-10T20:55:00Z",
-   "excerpt": "An exploited Outlook vulnerability drew most of the attention in Microsoft's latest Patch Tuesday, which listed 1,093 bugs total.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
-   "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-10T20:54:55Z",
-   "excerpt": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. …",
-   "topics": []
-  },
-  {
-   "title": "Microsoft releases Windows 10 KB5131096 extended security update",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-10T20:04:36Z",
-   "excerpt": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-10T19:31:11Z",
-   "excerpt": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. …",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-   "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-10T19:23:10Z",
-   "excerpt": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
-   "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-10T19:19:46Z",
-   "excerpt": "CVE-2026-124194 is the Outlook zero-day for which Microsoft says it’s aware of active exploitation.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-   "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-10T19:19:39Z",
-   "excerpt": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including…",
-   "topics": [
-    "vulnerabilities",
-    "breaches",
-    "ai"
-   ]
-  },
-  {
-   "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-10T19:07:36Z",
-   "excerpt": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. …",
-   "topics": [
-    "vulnerabilities"
-   ]
   }
  ]
 }
