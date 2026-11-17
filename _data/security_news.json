@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:38:30Z",
+ "updated": "2026-11-17T14:23:21Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -161,6 +161,425 @@
   }
  ],
  "items": [
+  {
+   "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+   "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-17T14:14:24Z",
+   "excerpt": "Card numbers, CVVs, expiration dates, and email addresses used at Fandango’s ticketing checkout over four days in October may have been exposed.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Autistic teen hacker pleads guilty to leak of Grand Theft Auto VI footage",
+   "url": "https://therecord.media/autistic-teen-hacker-guilty-plea-britain-gta6-leak",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-17T14:09:00Z",
+   "excerpt": "Now 21, Artion Kurtaj pleaded guilty to a 2022 spree that included leaking clips of Grand Theft Auto VI while it was still years away from release.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "PreTxt Emerges Stealth with $5M Seed and an AI Supervision Tool",
+   "url": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-17T14:00:00Z",
+   "excerpt": "PreTxt provides technology to prevent AI agents escaping their guardrails and causing unintended harm.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
+   "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-17T13:24:43Z",
+   "excerpt": "More than 40 servers received over 688,000 requests exploiting CVE-2026-84869 to execute guest-pushed files.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Access Dental Management Data Breach Impacts Over 340,000",
+   "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-17T12:59:04Z",
+   "excerpt": "Hackers breached Access Dental’s network and stole personal, health, and insurance information.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity",
+   "url": "https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-17T12:51:54Z",
+   "excerpt": "Led by NEA and supported by existing investors, the funding brings the company’s valuation to $1 billion.",
+   "topics": []
+  },
+  {
+   "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+   "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-17T12:28:45Z",
+   "excerpt": "The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+   "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-17T12:25:06Z",
+   "excerpt": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used…",
+   "topics": []
+  },
+  {
+   "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+   "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-17T12:14:36Z",
+   "excerpt": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Formal Verification of the Signal Protocol Using AI",
+   "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-11-17T12:05:43Z",
+   "excerpt": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself.…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
+   "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-17T12:00:00Z",
+   "excerpt": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+   "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-17T11:20:18Z",
+   "excerpt": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-17T11:19:51Z",
+   "excerpt": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. …",
+   "topics": []
+  },
+  {
+   "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+   "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-17T11:07:31Z",
+   "excerpt": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
+   "url": "https://isc.sans.edu/diary/33526",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-17T10:56:38Z",
+   "excerpt": "I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;ve mentioned before in some of my diaries that it can be instructive to look at what appear to be &#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9c;generic&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9d; phishing messages in detail from…",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
+   "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-17T10:22:20Z",
+   "excerpt": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA.",
+   "topics": [
+    "vulnerabilities",
+    "malware"
+   ]
+  },
+  {
+   "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+   "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-17T09:44:22Z",
+   "excerpt": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+   "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-17T08:35:42Z",
+   "excerpt": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. …",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+   "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-17T07:25:44Z",
+   "excerpt": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. …",
+   "topics": [
+    "ransomware"
+   ]
+  },
+  {
+   "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+   "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-17T07:12:13Z",
+   "excerpt": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+   "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-17T06:29:27Z",
+   "excerpt": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional…",
+   "topics": []
+  },
+  {
+   "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+   "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-17T05:00:34Z",
+   "excerpt": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+   "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-17T02:12:17Z",
+   "excerpt": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
+   "url": "https://isc.sans.edu/diary/33524",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-17T02:05:15Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+   "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T22:54:00Z",
+   "excerpt": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. …",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
+   "url": "https://therecord.media/california-sues-openai-hugging-face",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-16T21:40:00Z",
+   "excerpt": "\"OpenAI thwarted the Attorney General’s efforts to investigate these incidents, including by refusing to provide detailed information about the full universe of incidents known to the company,” California alleges in a new lawsuit.",
+   "topics": []
+  },
+  {
+   "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+   "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T21:31:44Z",
+   "excerpt": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. …",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+   "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T20:59:44Z",
+   "excerpt": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Match fined $10 million for alleged Tinder privacy violations",
+   "url": "https://therecord.media/ireland-tinder-privacy-fine",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-16T20:15:00Z",
+   "excerpt": "Ireland’s data protection regulator will fine the Match Group as a result of the dating app Tinder allegedly failing to provide users with their personal data held by the company upon request.",
+   "topics": []
+  },
+  {
+   "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
+   "url": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-16T20:00:00Z",
+   "excerpt": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T19:57:13Z",
+   "excerpt": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. …",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Italian regulator fines Meta $886 million for violating data privacy law",
+   "url": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-16T18:05:00Z",
+   "excerpt": "The crackdown on Meta’s Facebook platform involved the company’s alleged use of its “camera roll” suggestions option, launched in 2023, to browse Android users’ photo galleries to recommend posts they could enhance with personal photos and videos.",
+   "topics": []
+  },
+  {
+   "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T16:43:24Z",
+   "excerpt": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Cursor Supply Chain Attack Started at Fireworks AI",
+   "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-16T15:45:43Z",
+   "excerpt": "The attacker stole an access key from Fireworks and used it to exfiltrate credentials that enabled them to push malicious Claude Code extension copies.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Fandango says hackers stole payment card details from checkout pages",
+   "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T15:44:21Z",
+   "excerpt": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+   "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T15:01:11Z",
+   "excerpt": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block…",
+   "topics": []
+  },
+  {
+   "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+   "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-16T14:00:00Z",
+   "excerpt": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage…",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Google warns that fully-automated AI attacks are coming soon",
+   "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-16T14:00:00Z",
+   "excerpt": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. …",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+   "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-16T13:27:20Z",
+   "excerpt": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making…",
+   "topics": [
+    "vulnerabilities",
+    "malware",
+    "ai"
+   ]
+  },
   {
    "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
    "url": "https://isc.sans.edu/diary/33522",
@@ -1343,420 +1762,6 @@
    "topics": [
     "ai"
    ]
-  },
-  {
-   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-   "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-12T10:39:34Z",
-   "excerpt": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication.",
-   "topics": [
-    "vulnerabilities",
-    "malware"
-   ]
-  },
-  {
-   "title": "Microsoft confirms Windows security updates installation issues",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-12T10:24:07Z",
-   "excerpt": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. …",
-   "topics": []
-  },
-  {
-   "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
-   "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-12T09:39:55Z",
-   "excerpt": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Hackers plant GSocket on Linux servers for persistent access",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-12T09:38:00Z",
-   "excerpt": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-   "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-12T09:25:00Z",
-   "excerpt": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
-   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-12T09:23:21Z",
-   "excerpt": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
-   "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-12T08:38:47Z",
-   "excerpt": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems.",
-   "topics": [
-    "ransomware",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-   "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-12T08:20:37Z",
-   "excerpt": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses…",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-   "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-12T06:42:47Z",
-   "excerpt": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to take the secrets and…",
-   "topics": [
-    "malware"
-   ]
-  },
-  {
-   "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-   "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-12T05:12:26Z",
-   "excerpt": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-   "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-12T04:39:48Z",
-   "excerpt": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the incident involves a…",
-   "topics": []
-  },
-  {
-   "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
-   "url": "https://isc.sans.edu/diary/33512",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-11-12T02:00:03Z",
-   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-   "topics": []
-  },
-  {
-   "title": "Baker Tilly notifies clients of data breach at third-party provider",
-   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T23:01:31Z",
-   "excerpt": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T22:56:21Z",
-   "excerpt": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. …",
-   "topics": [
-    "breaches",
-    "malware"
-   ]
-  },
-  {
-   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-   "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T21:27:40Z",
-   "excerpt": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. …",
-   "topics": []
-  },
-  {
-   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-   "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T20:54:20Z",
-   "excerpt": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. …",
-   "topics": [
-    "breaches",
-    "ai"
-   ]
-  },
-  {
-   "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
-   "url": "https://isc.sans.edu/diary/33508",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-11-11T18:28:43Z",
-   "excerpt": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "Who Runs the Ransomware Group Qilin?",
-   "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-   "source": "Krebs on Security",
-   "source_id": "krebs",
-   "published": "2026-11-11T18:06:01Z",
-   "excerpt": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator…",
-   "topics": [
-    "ransomware"
-   ]
-  },
-  {
-   "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
-   "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-11T16:57:00Z",
-   "excerpt": "An indictment unsealed Tuesday says the broader campaign, targeting Jewish and American sites, included attacks on synagogues in Belgium, the Netherlands and London, and U.S. bank buildings in Amsterdam and Paris.",
-   "topics": []
-  },
-  {
-   "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
-   "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T16:29:42Z",
-   "excerpt": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise.",
-   "topics": []
-  },
-  {
-   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-   "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T16:24:18Z",
-   "excerpt": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. …",
-   "topics": [
-    "ransomware",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-   "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T16:12:46Z",
-   "excerpt": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
-   "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T15:42:47Z",
-   "excerpt": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-   "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T15:34:27Z",
-   "excerpt": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T15:12:59Z",
-   "excerpt": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. …",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
-   "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T15:01:11Z",
-   "excerpt": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code…",
-   "topics": [
-    "malware"
-   ]
-  },
-  {
-   "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-   "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T14:01:00Z",
-   "excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Poland shuts down government services platform ePUAP following cyberattack",
-   "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-11T13:18:00Z",
-   "excerpt": "The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online.",
-   "topics": []
-  },
-  {
-   "title": "Britain, France set out first guidelines for commercial hacking firms",
-   "url": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-11T13:11:00Z",
-   "excerpt": "The guidelines call on businesses that develop, sell or finance CCICs to vet their customers, establish technical safeguards against misuse and to maintain systems for monitoring and reporting abuses.",
-   "topics": []
-  },
-  {
-   "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-   "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T12:32:27Z",
-   "excerpt": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
-   "url": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T12:24:33Z",
-   "excerpt": "The Series C round will fund international expansion and more autonomous features for the firm’s device security platform.",
-   "topics": []
-  },
-  {
-   "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-   "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T12:19:40Z",
-   "excerpt": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the…",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Fortinet Patches Nearly 100 Vulnerabilities",
-   "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T12:10:14Z",
-   "excerpt": "The massive drop comes after the company integrated frontier AI models into its product security testing.",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
-   "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
-   "source": "Schneier on Security",
-   "source_id": "schneier",
-   "published": "2026-11-11T12:05:34Z",
-   "excerpt": "It’s hard to believe how lucrative this crime can be: According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter…",
-   "topics": [
-    "phishing",
-    "ai"
-   ]
-  },
-  {
-   "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-   "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T12:01:59Z",
-   "excerpt": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-   "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-11T12:00:53Z",
-   "excerpt": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company…",
-   "topics": []
-  },
-  {
-   "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
-   "url": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T11:30:00Z",
-   "excerpt": "Founded by three ex-IDF Unit 8200 intelligence officers, Bay is launched to provide a control plane for AI agents.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Microsoft fixes audio issues caused by September security updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-11T11:18:36Z",
-   "excerpt": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. …",
-   "topics": []
-  },
-  {
-   "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
-   "url": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-11T11:16:40Z",
-   "excerpt": "Created by Zerto and Kashya veterans, the startup has launched a platform designed to recover whole cloud applications.",
-   "topics": []
   }
  ]
 }
