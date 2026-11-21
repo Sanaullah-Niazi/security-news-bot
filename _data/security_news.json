@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:00:01Z",
+ "updated": "2026-11-21T13:28:13Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -39,6 +39,46 @@
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-76466",
+   "name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+   "vendor": "Cisco",
+   "product": "Expressway Series",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+  },
+  {
+   "cve": "CVE-2026-129448",
+   "name": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+   "vendor": "Apache",
+   "product": "Roller",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+  },
+  {
+   "cve": "CVE-2026-123890",
+   "name": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+  },
+  {
+   "cve": "CVE-2025-42884",
+   "name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+   "vendor": "SAP",
+   "product": "NetWeaver",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+  },
   {
    "cve": "CVE-2026-90817",
    "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
@@ -118,49 +158,239 @@
    "due": "2026-11-24",
    "ransomware": false,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
-  },
-  {
-   "cve": "CVE-2026-125350",
-   "name": "Google Chromium Use-After-Free Vulnerability",
-   "vendor": "Google",
-   "product": "Chromium",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
-   "ransomware": false,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
-  },
-  {
-   "cve": "CVE-2026-124194",
-   "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-   "vendor": "Microsoft",
-   "product": "Office",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
-   "ransomware": false,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
-  },
-  {
-   "cve": "CVE-2026-116606",
-   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "vendor": "Barracuda Networks",
-   "product": "Barracuda Email Security Gateway (ESG)",
-   "added": "2026-11-10",
-   "due": "2026-11-13",
-   "ransomware": false,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
-  },
-  {
-   "cve": "CVE-2026-111793",
-   "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
-   "vendor": "Openwave Messaging Limited",
-   "product": "Webtop Media Transcoder",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
-   "ransomware": false,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
   }
  ],
  "items": [
+  {
+   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+   "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-21T12:08:50Z",
+   "excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability.",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+   "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-21T11:53:07Z",
+   "excerpt": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the…",
+   "topics": []
+  },
+  {
+   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+   "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-21T11:05:53Z",
+   "excerpt": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-21T11:03:17Z",
+   "excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an…",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+   "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-21T08:49:20Z",
+   "excerpt": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-21T08:49:13Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "source": "Krebs on Security",
+   "source_id": "krebs",
+   "published": "2026-11-21T00:36:39Z",
+   "excerpt": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the…",
+   "topics": [
+    "ransomware",
+    "phishing"
+   ]
+  },
+  {
+   "title": "Friday Squid Blogging: The Largest Squid Ever Filmed",
+   "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-11-20T22:04:12Z",
+   "excerpt": "This is the story of the largest squid ever filmed, in December 2006 near Japan’s Ogasawara Islands. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+   "topics": []
+  },
+  {
+   "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+   "url": "https://therecord.media/west-virginia-legislature-cyberattack",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-20T21:34:36Z",
+   "excerpt": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
+   "topics": []
+  },
+  {
+   "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+   "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-20T20:25:00Z",
+   "excerpt": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Container Store restores systems after cyberattack",
+   "url": "https://therecord.media/container-store-restores-systems-cyberattack",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-20T19:32:00Z",
+   "excerpt": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
+   "topics": []
+  },
+  {
+   "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+   "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-20T18:51:43Z",
+   "excerpt": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. …",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+   "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-20T17:57:20Z",
+   "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described…",
+   "topics": [
+    "vulnerabilities",
+    "phishing"
+   ]
+  },
+  {
+   "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-20T17:30:00Z",
+   "excerpt": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. …",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+   "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-20T17:30:00Z",
+   "excerpt": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+   "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-20T16:58:16Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it…",
+   "topics": [
+    "malware",
+    "ai"
+   ]
+  },
+  {
+   "title": "NSA resumes normal operations following internal network disruptions",
+   "url": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-20T16:06:00Z",
+   "excerpt": "Certain facilities remain under “Code Orange” for non-essential employees, meaning delayed openings and some must check in with their supervisors.",
+   "topics": []
+  },
+  {
+   "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
+   "url": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-20T16:01:02Z",
+   "excerpt": "Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp’s security team, and it may have been used to make scam messages more credible.",
+   "topics": [
+    "vulnerabilities",
+    "phishing"
+   ]
+  },
+  {
+   "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+   "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-20T15:58:06Z",
+   "excerpt": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+   "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-20T15:00:10Z",
+   "excerpt": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility…",
+   "topics": []
+  },
+  {
+   "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
+   "url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-20T14:56:23Z",
+   "excerpt": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI.",
+   "topics": [
+    "vulnerabilities",
+    "malware",
+    "ai"
+   ]
+  },
   {
    "title": "N-able says recent security breach led to major service outage",
    "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
@@ -222,6 +452,17 @@
    "excerpt": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12…",
    "topics": [
     "ai"
+   ]
+  },
+  {
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-11-20T12:00:00Z",
+   "excerpt": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466…",
+   "topics": [
+    "vulnerabilities"
    ]
   },
   {
@@ -1092,17 +1333,6 @@
    "topics": []
   },
   {
-   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-18T12:00:00Z",
-   "excerpt": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
    "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
    "url": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
    "source": "SecurityWeek",
@@ -1544,236 +1774,6 @@
    "source_id": "thehackernews",
    "published": "2026-11-17T12:14:36Z",
    "excerpt": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Formal Verification of the Signal Protocol Using AI",
-   "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
-   "source": "Schneier on Security",
-   "source_id": "schneier",
-   "published": "2026-11-17T12:05:43Z",
-   "excerpt": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself.…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Siemens Simcenter Femap",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Dorsett Controls InfoScan",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications.…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens Mendix Studio Pro",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Critical Java Vulnerability Requires Immediate Patching",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938. This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens Industrial Software Products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens ROS#",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens SIMATIC",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens Industrial Automation Software Products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens meta-iot2050",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens SIMATIC WinCC",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Siemens RUGGEDCOM APE1808",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-   "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-17T12:00:00Z",
-   "excerpt": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-   "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-17T11:20:18Z",
-   "excerpt": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity…",
-   "topics": [
-    "malware"
-   ]
-  },
-  {
-   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-17T11:19:51Z",
-   "excerpt": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. …",
-   "topics": []
-  },
-  {
-   "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-   "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-17T11:07:31Z",
-   "excerpt": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
-   "url": "https://isc.sans.edu/diary/33526",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-11-17T10:56:38Z",
-   "excerpt": "I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;ve mentioned before in some of my diaries that it can be instructive to look at what appear to be &#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9c;generic&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9d; phishing messages in detail from…",
-   "topics": [
-    "phishing"
-   ]
-  },
-  {
-   "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
-   "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-17T10:22:20Z",
-   "excerpt": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA.",
-   "topics": [
-    "vulnerabilities",
-    "malware"
-   ]
-  },
-  {
-   "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-   "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-17T09:44:22Z",
-   "excerpt": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. …",
    "topics": [
     "vulnerabilities"
    ]
