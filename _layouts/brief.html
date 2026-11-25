@@ -6,6 +6,7 @@ layout: default
 <article class="wrap page">
   <p class="eyebrow"><a href="{{ L }}/security-news/"><span class="back-arrow" aria-hidden="true">←</span> {{ S.sn_brief_all }}</a></p>
   <header class="page-head">
+    {% include page-badge.html %}
     <p class="eyebrow">{{ S.sn_brief_eyebrow }}</p>
     <h1>{{ page.title | escape }}</h1>
     <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date long=true %}</time></p>

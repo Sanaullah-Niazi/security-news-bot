@@ -8,6 +8,7 @@
 {%- capture en_attr %}{% if lang != 'en' %} lang="en" dir="ltr"{% endif %}{% endcapture -%}
 <div class="wrap page sn">
   <header class="page-head">
+    {% include page-badge.html %}
     <p class="eyebrow">{{ S.sn_eyebrow }}</p>
     <h1>{{ S.sn_page_title }}</h1>
     <p class="lede">{{ S.sn_lede }}</p>
