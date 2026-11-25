@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:52:48Z",
+ "updated": "2026-11-25T15:35:29Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -39,6 +39,46 @@
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-103406",
+   "name": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+   "vendor": "Hewlett Packard Enterprise (HPE)",
+   "product": "Juniper Session Smart Conductor and Session Smart Router",
+   "added": "2026-11-25",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406"
+  },
+  {
+   "cve": "CVE-2026-132224",
+   "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+   "vendor": "Optimizely",
+   "product": "Web Experimentation",
+   "added": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+  },
+  {
+   "cve": "CVE-2026-132165",
+   "name": "Drupal Core Remote Code Execution Vulnerability",
+   "vendor": "Drupal",
+   "product": "Core",
+   "added": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+  },
+  {
+   "cve": "CVE-2026-131914",
+   "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+   "vendor": "Idunno",
+   "product": "AntiCsrf",
+   "added": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+  },
   {
    "cve": "CVE-2026-134624",
    "name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
@@ -118,49 +158,430 @@
    "due": "2026-11-21",
    "ransomware": false,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
-  },
-  {
-   "cve": "CVE-2026-40217",
-   "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-   "vendor": "BerriAI",
-   "product": "LiteLLM",
-   "added": "2026-11-18",
-   "due": "2026-12-02",
-   "ransomware": false,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
-  },
-  {
-   "cve": "CVE-2024-10441",
-   "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-   "vendor": "Synology",
-   "product": "DiskStation Manager (DSM)",
-   "added": "2026-11-18",
-   "due": "2026-11-21",
-   "ransomware": true,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
-  },
-  {
-   "cve": "CVE-2026-115731",
-   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
-   "vendor": "Perforce",
-   "product": "Puppet Enterprise",
-   "added": "2026-11-17",
-   "due": "2026-12-01",
-   "ransomware": false,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
-  },
-  {
-   "cve": "CVE-2026-123039",
-   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-   "vendor": "Check Point",
-   "product": "Multiple Products",
-   "added": "2026-11-13",
-   "due": "2026-11-16",
-   "ransomware": false,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
   }
  ],
  "items": [
+  {
+   "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+   "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-25T15:27:36Z",
+   "excerpt": "Attackers are probing GeoServer instances for two high-severity flaws that can be chained with other bugs for unauthenticated RCE.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+   "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-25T15:00:10Z",
+   "excerpt": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+   "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-25T15:00:00Z",
+   "excerpt": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+   "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-25T14:15:25Z",
+   "excerpt": "An account tied to ShinyHunters announced the group’s return, as Okta spots possible links between Inception and ShinyHunters hackers.",
+   "topics": []
+  },
+  {
+   "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
+   "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-25T13:39:21Z",
+   "excerpt": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident.",
+   "topics": []
+  },
+  {
+   "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
+   "url": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-25T13:30:00Z",
+   "excerpt": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University.",
+   "topics": []
+  },
+  {
+   "title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital",
+   "url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-25T13:30:00Z",
+   "excerpt": "France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and revert to pen and…",
+   "topics": [
+    "ransomware"
+   ]
+  },
+  {
+   "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-25T12:48:54Z",
+   "excerpt": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+   "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-25T12:30:08Z",
+   "excerpt": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some…",
+   "topics": []
+  },
+  {
+   "title": "Tracking Incidents of Hacking Using AI Tools",
+   "url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-11-25T12:07:21Z",
+   "excerpt": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+   "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-25T11:51:48Z",
+   "excerpt": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of…",
+   "topics": []
+  },
+  {
+   "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+   "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-25T11:23:26Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-25T11:16:32Z",
+   "excerpt": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+   "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-25T10:43:07Z",
+   "excerpt": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a…",
+   "topics": []
+  },
+  {
+   "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
+   "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-25T10:40:07Z",
+   "excerpt": "The edtech company says the systems are fully operational and safe to use while it investigates the incident.",
+   "topics": []
+  },
+  {
+   "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
+   "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-25T10:15:00Z",
+   "excerpt": "The Treasury Department has taken some systems offline after a cybersecurity incident that “resulted in unauthorized access to a limited subset of its systems.”",
+   "topics": []
+  },
+  {
+   "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-25T10:10:20Z",
+   "excerpt": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-25T09:06:59Z",
+   "excerpt": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+   "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-25T09:05:13Z",
+   "excerpt": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Microsoft confirms authentication issues after November updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-25T09:02:57Z",
+   "excerpt": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+   "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-25T08:12:24Z",
+   "excerpt": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers.",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+   "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-25T08:01:06Z",
+   "excerpt": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Hackers reportedly breached CIA intelligence analysis system",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-25T07:45:03Z",
+   "excerpt": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+   "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-25T06:50:19Z",
+   "excerpt": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+   "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-25T06:37:06Z",
+   "excerpt": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted…",
+   "topics": [
+    "ransomware",
+    "phishing",
+    "breaches"
+   ]
+  },
+  {
+   "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+   "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-25T06:21:12Z",
+   "excerpt": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
+   "url": "https://isc.sans.edu/diary/33554",
+   "source": "SANS ISC",
+   "source_id": "sans",
+   "published": "2026-11-25T02:00:03Z",
+   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "topics": []
+  },
+  {
+   "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+   "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-24T22:41:58Z",
+   "excerpt": "It was not clear what specific information was compromised or who was responsible.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Rackspace shuts down Spot cloud platform after security breach",
+   "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-24T21:37:30Z",
+   "excerpt": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+   "url": "https://therecord.media/mycolorado-app-down-data-breach",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-24T20:52:00Z",
+   "excerpt": "Cybercriminals likely stole data from 150,000 users of myColorado, which residents typically use for digital identification, document storage and accessing state government services.",
+   "topics": []
+  },
+  {
+   "title": "New Inception extortion gang launches large-scale vishing campaign",
+   "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-24T20:21:20Z",
+   "excerpt": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. …",
+   "topics": [
+    "ransomware",
+    "phishing"
+   ]
+  },
+  {
+   "title": "California privacy agency director Kemp to leave after two-year tenure",
+   "url": "https://therecord.media/california-privacy-agency-kemp",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-24T19:30:00Z",
+   "excerpt": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
+   "topics": []
+  },
+  {
+   "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+   "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-24T18:59:52Z",
+   "excerpt": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. …",
+   "topics": []
+  },
+  {
+   "title": "Radware discloses breach exposing customer cloud access keys",
+   "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-24T17:49:05Z",
+   "excerpt": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Lawmakers warn ID verification companies to bolster security after September hack",
+   "url": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-24T17:49:00Z",
+   "excerpt": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+   "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-24T16:54:07Z",
+   "excerpt": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+   "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-24T16:32:56Z",
+   "excerpt": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts.",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+   "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-24T16:30:19Z",
+   "excerpt": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. …",
+   "topics": [
+    "ransomware",
+    "breaches"
+   ]
+  },
+  {
+   "title": "European Commission confirms data theft in EU Academy breach",
+   "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-24T16:22:44Z",
+   "excerpt": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. …",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Hackers compromise Check Point Servers in 22 organizations",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-24T16:15:23Z",
+   "excerpt": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
   {
    "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
    "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
@@ -347,12 +768,12 @@
    "topics": []
   },
   {
-   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
    "source": "CISA advisories",
    "source_id": "cisa",
    "published": "2026-11-24T12:00:00Z",
-   "excerpt": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your…",
+   "excerpt": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code…",
    "topics": [
     "vulnerabilities"
    ]
@@ -364,6 +785,17 @@
    "source_id": "cisa",
    "published": "2026-11-24T12:00:00Z",
    "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "source": "CISA advisories",
+   "source_id": "cisa",
+   "published": "2026-11-24T12:00:00Z",
+   "excerpt": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your…",
    "topics": [
     "vulnerabilities"
    ]
@@ -1342,448 +1774,6 @@
    "excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as…",
    "topics": [
     "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-20T09:25:35Z",
-   "excerpt": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. …",
-   "topics": []
-  },
-  {
-   "title": "N-able Blames Service Disruption on Cyberattack",
-   "url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-20T09:08:35Z",
-   "excerpt": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft.",
-   "topics": []
-  },
-  {
-   "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-   "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-20T07:35:46Z",
-   "excerpt": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers.",
-   "topics": [
-    "ransomware",
-    "breaches"
-   ]
-  },
-  {
-   "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-   "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-20T07:11:39Z",
-   "excerpt": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing…",
-   "topics": [
-    "malware"
-   ]
-  },
-  {
-   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-   "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-20T05:30:01Z",
-   "excerpt": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
-   "url": "https://isc.sans.edu/diary/33538",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-11-20T02:00:02Z",
-   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-   "topics": []
-  },
-  {
-   "title": "VMware patches vCenter zero-day exploited in attacks since September",
-   "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-20T00:26:25Z",
-   "excerpt": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-19T22:25:42Z",
-   "excerpt": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
-   "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-19T21:19:00Z",
-   "excerpt": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-   "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-19T21:15:59Z",
-   "excerpt": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
-   "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-19T19:21:06Z",
-   "excerpt": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-   "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-19T18:47:58Z",
-   "excerpt": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used…",
-   "topics": [
-    "vulnerabilities",
-    "ransomware",
-    "malware",
-    "ai"
-   ]
-  },
-  {
-   "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-   "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-19T18:20:01Z",
-   "excerpt": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
-   "url": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-19T17:25:00Z",
-   "excerpt": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
-   "topics": [
-    "phishing"
-   ]
-  },
-  {
-   "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
-   "url": "https://therecord.media/cisa-losapio-nomination-trump",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-19T17:00:00Z",
-   "excerpt": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6, 2021.",
-   "topics": []
-  },
-  {
-   "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-   "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-19T16:59:56Z",
-   "excerpt": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
-   "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-19T16:28:23Z",
-   "excerpt": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "UK court confirms British government served Apple with secret encryption notice",
-   "url": "https://therecord.media/apple-uk-encryption-notice",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-19T16:15:00Z",
-   "excerpt": "The British government served Apple with a secret legal notice targeting the company’s cryptographic protections for iCloud accounts, a tribunal has confirmed, ending almost two years of official refusal to acknowledge what had been widely reported.",
-   "topics": []
-  },
-  {
-   "title": "PHP Patches Seven Critical RCE Vulnerabilities",
-   "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-19T15:54:20Z",
-   "excerpt": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-   "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-19T15:18:07Z",
-   "excerpt": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "European Commission confirms cyberattack, says hackers used AI tool",
-   "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-19T15:15:00Z",
-   "excerpt": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-   "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-19T15:11:06Z",
-   "excerpt": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Five warning signs of ransomware breach before encryption or data theft",
-   "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-19T15:00:10Z",
-   "excerpt": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity…",
-   "topics": [
-    "ransomware",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-19T14:57:24Z",
-   "excerpt": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-   "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-19T14:33:06Z",
-   "excerpt": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Nvidia Responds to Gentlemen Ransomware Claim",
-   "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-19T14:17:32Z",
-   "excerpt": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim.",
-   "topics": [
-    "ransomware"
-   ]
-  },
-  {
-   "title": "Ukraine exposes ransomware network extorting US oil, healthcare firms",
-   "url": "https://therecord.media/ukraine-ransomware-arrests-cyber",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-19T13:30:00Z",
-   "excerpt": "Ukrainian authorities arrested four suspected members of an international ransomware network accused of extorting more than $40 million from companies around the world.",
-   "topics": [
-    "ransomware"
-   ]
-  },
-  {
-   "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
-   "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-19T13:12:20Z",
-   "excerpt": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement.",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
-   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-19T13:08:08Z",
-   "excerpt": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. …",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
-   "url": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-19T12:23:34Z",
-   "excerpt": "The company will use the funds to accelerate the development and distribution of its security platform.",
-   "topics": []
-  },
-  {
-   "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
-   "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-19T12:13:24Z",
-   "excerpt": "Attackers are targeting Confluence Data Center through an Axis flaw and Apache is warning of attacks against Roller.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Elecbrakes EB2, VM1, ELBC2000",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-19T12:00:00Z",
-   "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. The…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Autonomy Logic OpenPLC Runtime",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-19T12:00:00Z",
-   "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime <=4.2.4 (CVE-2026-126088) CVSS Vendor…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "libumqtt",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-   "source": "CISA advisories",
-   "source_id": "cisa",
-   "published": "2026-11-19T12:00:00Z",
-   "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "The Governance Gap in Open-Weight AI and What to Do About It",
-   "url": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-19T12:00:00Z",
-   "excerpt": "Lower costs, data privacy, and greater control are driving open-weight AI adoption, but many organizations are not addressing the risks that come with it.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Everything Is a Web Application, Including Your Firewall",
-   "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-19T11:52:23Z",
-   "excerpt": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to…",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-19T11:46:00Z",
-   "excerpt": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. …",
-   "topics": []
-  },
-  {
-   "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
-   "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-19T10:41:05Z",
-   "excerpt": "The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Microsoft confirms app installation, launch issues after hotpatch",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-19T10:35:05Z",
-   "excerpt": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. …",
-   "topics": []
-  },
-  {
-   "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
-   "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-19T10:26:51Z",
-   "excerpt": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code.",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-   "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-19T09:31:26Z",
-   "excerpt": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and…",
-   "topics": [
-    "breaches"
    ]
   }
  ]
