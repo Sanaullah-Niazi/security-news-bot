@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:14:01Z",
+ "updated": "2026-11-27T15:03:55Z",
  "sources": [
   {
    "name": "The Hacker News",
@@ -161,6 +161,302 @@
   }
  ],
  "items": [
+  {
+   "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+   "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-27T15:00:10Z",
+   "excerpt": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help…",
+   "topics": []
+  },
+  {
+   "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+   "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-27T14:22:06Z",
+   "excerpt": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. …",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Japan’s education ministry discloses breach of government procurement system",
+   "url": "https://therecord.media/japan-education-ministry-cyberattack",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-27T14:15:00Z",
+   "excerpt": "Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Software giant SAP confirms cyber incident amid reports of source code breach",
+   "url": "https://therecord.media/sap-germany-cyberattack-github",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-27T13:15:00Z",
+   "excerpt": "German software giant SAP confirmed a cybersecurity incident following reports that hackers infiltrated its software development infrastructure, potentially gaining access to the company’s source code.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Recent Outages Have Economic Causes",
+   "url": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+   "source": "Schneier on Security",
+   "source_id": "schneier",
+   "published": "2026-11-27T12:02:23Z",
+   "excerpt": "This essay originally appeared in The Guardian. It’s an expanded version of the one I posted as “We Get the Infrastructure We Pay For.” It’s been a bad week for our computerized infrastructure. We’ve seen outages at Microsoft, the FAA, a handful of banks…",
+   "topics": []
+  },
+  {
+   "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+   "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-27T11:49:34Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Microsoft removes WSUS server role in Windows Server 2028",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-27T11:18:36Z",
+   "excerpt": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. …",
+   "topics": []
+  },
+  {
+   "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+   "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-27T11:00:00Z",
+   "excerpt": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked.",
+   "topics": [
+    "ransomware",
+    "breaches"
+   ]
+  },
+  {
+   "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+   "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-27T10:32:18Z",
+   "excerpt": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "Drupal warns of new site takeover flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-27T10:10:15Z",
+   "excerpt": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. …",
+   "topics": [
+    "vulnerabilities",
+    "breaches"
+   ]
+  },
+  {
+   "title": "SAP confirms security incident after suspicious GitHub activity",
+   "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-27T09:56:36Z",
+   "excerpt": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. …",
+   "topics": []
+  },
+  {
+   "title": "100,000 Potentially Impacted by Colorado Data Breach",
+   "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-27T09:30:54Z",
+   "excerpt": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+   "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-27T09:29:30Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only…",
+   "topics": [
+    "malware"
+   ]
+  },
+  {
+   "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-27T09:08:16Z",
+   "excerpt": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). …",
+   "topics": []
+  },
+  {
+   "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+   "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-27T08:06:58Z",
+   "excerpt": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. …",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Hex Package Manager Warns of Potential Data Breach",
+   "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-27T07:44:49Z",
+   "excerpt": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged.",
+   "topics": [
+    "vulnerabilities",
+    "breaches"
+   ]
+  },
+  {
+   "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+   "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-27T07:36:14Z",
+   "excerpt": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code.",
+   "topics": []
+  },
+  {
+   "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+   "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-27T06:04:20Z",
+   "excerpt": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure…",
+   "topics": [
+    "breaches",
+    "ai"
+   ]
+  },
+  {
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-27T05:48:20Z",
+   "excerpt": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been…",
+   "topics": [
+    "vulnerabilities"
+   ]
+  },
+  {
+   "title": "Cyberattack disrupts global news distribution platform at France’s AFP",
+   "url": "https://therecord.media/france-afp-hit-by-cyberattack",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-27T00:00:00Z",
+   "excerpt": "French international news agency Agence France-Presse was hit by a cyberattack Thursday, forcing it to take offline one of its main platforms for distributing news content to media organizations worldwide.",
+   "topics": []
+  },
+  {
+   "title": "British government takes services offline following ‘cyber incident’",
+   "url": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+   "source": "The Record",
+   "source_id": "therecord",
+   "published": "2026-11-27T00:00:00Z",
+   "excerpt": "The Department for Work and Pensions said Friday that it had experienced a cyber incident, with several services taken down as a precaution.",
+   "topics": []
+  },
+  {
+   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-26T21:06:22Z",
+   "excerpt": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. …",
+   "topics": [
+    "vulnerabilities",
+    "ai"
+   ]
+  },
+  {
+   "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-26T19:39:57Z",
+   "excerpt": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking…",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+   "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-26T17:58:42Z",
+   "excerpt": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. …",
+   "topics": []
+  },
+  {
+   "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+   "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-26T17:15:27Z",
+   "excerpt": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. …",
+   "topics": [
+    "phishing"
+   ]
+  },
+  {
+   "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+   "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+   "source": "SecurityWeek",
+   "source_id": "securityweek",
+   "published": "2026-11-26T17:06:55Z",
+   "excerpt": "FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information.",
+   "topics": [
+    "breaches"
+   ]
+  },
+  {
+   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+   "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+   "source": "BleepingComputer",
+   "source_id": "bleepingcomputer",
+   "published": "2026-11-26T15:23:28Z",
+   "excerpt": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. …",
+   "topics": [
+    "vulnerabilities",
+    "malware"
+   ]
+  },
+  {
+   "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+   "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+   "source": "The Hacker News",
+   "source_id": "thehackernews",
+   "published": "2026-11-26T15:13:41Z",
+   "excerpt": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February…",
+   "topics": [
+    "malware"
+   ]
+  },
   {
    "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
    "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
@@ -1472,308 +1768,6 @@
    "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. …",
    "topics": [
     "vulnerabilities"
-   ]
-  },
-  {
-   "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
-   "url": "https://isc.sans.edu/diary/33548",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-11-23T02:00:04Z",
-   "excerpt": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-   "topics": []
-  },
-  {
-   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-22T18:45:37Z",
-   "excerpt": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to…",
-   "topics": [
-    "vulnerabilities",
-    "malware"
-   ]
-  },
-  {
-   "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
-   "url": "https://isc.sans.edu/diary/33530",
-   "source": "SANS ISC",
-   "source_id": "sans",
-   "published": "2026-11-22T18:40:18Z",
-   "excerpt": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
-   "topics": []
-  },
-  {
-   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-22T15:43:04Z",
-   "excerpt": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-22T15:15:25Z",
-   "excerpt": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. …",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-22T05:06:55Z",
-   "excerpt": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-22T05:03:41Z",
-   "excerpt": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
-   "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-22T00:53:02Z",
-   "excerpt": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains.",
-   "topics": []
-  },
-  {
-   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-21T22:59:58Z",
-   "excerpt": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-   "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-21T18:01:58Z",
-   "excerpt": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. …",
-   "topics": [
-    "vulnerabilities",
-    "breaches"
-   ]
-  },
-  {
-   "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-   "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-21T15:17:27Z",
-   "excerpt": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. …",
-   "topics": [
-    "phishing",
-    "malware"
-   ]
-  },
-  {
-   "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-   "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-21T14:26:04Z",
-   "excerpt": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. …",
-   "topics": [
-    "breaches"
-   ]
-  },
-  {
-   "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-   "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-21T13:00:00Z",
-   "excerpt": "White House says the battle-tested cyber leader will drive an America First cyber strategy.",
-   "topics": []
-  },
-  {
-   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-   "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-   "source": "SecurityWeek",
-   "source_id": "securityweek",
-   "published": "2026-11-21T12:08:50Z",
-   "excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability.",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-   "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-21T11:53:07Z",
-   "excerpt": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the…",
-   "topics": []
-  },
-  {
-   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-   "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-21T11:05:53Z",
-   "excerpt": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-   "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-21T11:03:17Z",
-   "excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an…",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-   "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-21T08:49:20Z",
-   "excerpt": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built…",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-21T08:49:13Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active…",
-   "topics": [
-    "vulnerabilities"
-   ]
-  },
-  {
-   "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
-   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-   "source": "Krebs on Security",
-   "source_id": "krebs",
-   "published": "2026-11-21T00:36:39Z",
-   "excerpt": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the…",
-   "topics": [
-    "ransomware",
-    "phishing"
-   ]
-  },
-  {
-   "title": "Friday Squid Blogging: The Largest Squid Ever Filmed",
-   "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
-   "source": "Schneier on Security",
-   "source_id": "schneier",
-   "published": "2026-11-20T22:04:12Z",
-   "excerpt": "This is the story of the largest squid ever filmed, in December 2006 near Japan’s Ogasawara Islands. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
-   "topics": []
-  },
-  {
-   "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
-   "url": "https://therecord.media/west-virginia-legislature-cyberattack",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-20T21:34:36Z",
-   "excerpt": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
-   "topics": []
-  },
-  {
-   "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
-   "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-20T20:25:00Z",
-   "excerpt": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
-   "topics": [
-    "ai"
-   ]
-  },
-  {
-   "title": "Container Store restores systems after cyberattack",
-   "url": "https://therecord.media/container-store-restores-systems-cyberattack",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-20T19:32:00Z",
-   "excerpt": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
-   "topics": []
-  },
-  {
-   "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-   "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-20T18:51:43Z",
-   "excerpt": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. …",
-   "topics": [
-    "breaches",
-    "ai"
-   ]
-  },
-  {
-   "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-   "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-   "source": "The Hacker News",
-   "source_id": "thehackernews",
-   "published": "2026-11-20T17:57:20Z",
-   "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described…",
-   "topics": [
-    "vulnerabilities",
-    "phishing"
-   ]
-  },
-  {
-   "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-   "source": "BleepingComputer",
-   "source_id": "bleepingcomputer",
-   "published": "2026-11-20T17:30:00Z",
-   "excerpt": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. …",
-   "topics": [
-    "vulnerabilities",
-    "ai"
-   ]
-  },
-  {
-   "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
-   "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
-   "source": "The Record",
-   "source_id": "therecord",
-   "published": "2026-11-20T17:30:00Z",
-   "excerpt": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
-   "topics": [
-    "vulnerabilities",
-    "ai"
    ]
   }
  ]
